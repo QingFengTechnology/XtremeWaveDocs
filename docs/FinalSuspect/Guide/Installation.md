@@ -8,9 +8,9 @@ sidebar_position: 1
 
 ## 下载
 
-请访问[FinalSuspect的官方GitHub仓库](https://github.com/XtremeWave/FinalSuspect)并点击右侧带有**Latest**标签的Release,在最下方的Assets中点击下载`Final.Suspect.v1.1_20250216.zip`。
+请访问[FinalSuspect的官方GitHub仓库](https://github.com/XtremeWave/FinalSuspect)并点击右侧带有**Latest**标签的Release,在最下方的Assets中点击下载`Final.Suspect.v1.1_20250501.zip`。
 
-中国用户可以选择从官方QQ群内(链接位于网站底部右侧)下载,文件位于`Final Suspect`文件夹中,请选择`Final Suspect v1.1_20250216.zip`下载。
+中国用户可以选择从官方QQ群内(链接位于网站底部右侧)下载,文件位于`Final Suspect`文件夹中,请选择`Final Suspect v1.1_20250501.zip`下载。
 
 ## 安装
 

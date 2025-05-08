@@ -2,4 +2,4 @@
 
 启用后将使用模组自定义的鼠标光标样式。
 
-![UseModCursor](https://api.xtreme.net.cn/download/FinalSuspect/Images/Cursor.png)
+![UseModCursor](/img/Cursor.png)
