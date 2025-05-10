@@ -23,8 +23,8 @@ const config = {
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   i18n: {
-    defaultLocale: 'zh-cn',
-    locales: ['zh-cn'],
+    defaultLocale: 'zh-Hans',
+    locales: ['zh-Hans'],
   },
   noIndex: true,
   presets: [
@@ -57,19 +57,42 @@ const config = {
         },
         items: [
           {
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
+            to: 'about',
             position: 'left',
-            label: 'FinalSuspect',
+            label: '关于文档',
+          },
+          {
+            type: 'dropdown',
+            position: 'left',
+            label: '模组文档',
+            items: [
+              {
+                type: 'docSidebar',
+                sidebarId: 'FinalSuspectSidebar',
+                label: 'FinalSuspect',
+              },
+            ]
           },
           {
             href: 'https://www.xtreme.net.cn',
-            label: 'XtremeWave主站',
+            label: '主站',
             position: 'right',
           },
+          {
+            href: 'https://github.com/XtremeWave/WebSiteDocs',
+            label: 'GitHub',
+            position: 'right',
+          }
         ],
       },
+      docs: {
+        sidebar: {
+          hideable: true,
+          autoCollapseCategories: true,
+        },
+      },
       footer: {
+        style: 'dark',
         copyright: `© ${new Date().getFullYear()} XtremeWave`,
       },
       prism: {

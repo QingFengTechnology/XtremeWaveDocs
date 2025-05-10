@@ -19,6 +19,6 @@ FinalSuspect是一个适用于Among Us的原版优化插件。\
 
 请参阅[贡献指南](https://github.com/XtremeWave/FinalSuspect/blob/FinalSus/CONTRIBUTING.md)。
 
-感谢为FianSuspect做出贡献的所有开发者:
+感谢为FinalSuspect做出贡献的所有开发者:
 
 ![Contributors List](https://contrib.rocks/image?repo=XtremeWave/FinalSuspect)

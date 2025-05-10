@@ -1,9 +1,5 @@
 # 踢出使用违规昵称的玩家
 
-当您是房主时,若FinalSuspect检测到有人使用了违规昵称,将自动踢出该玩家。
-
-:::note 提示
-
-违规昵称列表可[访问API](https://api.xtreme.net.cn/download/FinalSuspect/Assets/Configs/DenyName.json)查看或下载原始文件。
-
-:::
+当您是房主时,若FinalSuspect检测到有人使用了违规昵称(如包含敏感词等破坏游戏环境的名称),系统将自动踢出该玩家。\
+该功能可有效维护房间秩序,避免恶意名称对其他玩家造成干扰。\
+您可以在设置手动禁用自动踢出功能。
