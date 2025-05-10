@@ -8,7 +8,7 @@ sidebar_position: 3
 
 你可以在设置中选择`Final Suspect功能`→`输出日志`,随后FS将打开输出日志所在的文件夹。
 
-有关自动导出日志的功能介绍,请查阅[此篇文档](/docs/FS/Features/DumpLog)。
+有关自动导出日志的功能介绍,请查阅[此篇文档](/docs/FinalSuspect/Features/DumpLog)。
 
 ## 手动查看
 
