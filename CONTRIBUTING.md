@@ -121,6 +121,7 @@ const sidebars = {
 ```
 
 请复制一行在下面,随后将`FinalSuspectSidebar`改为`<需要添加的模组全称>Sidebar`。
+> 这里的`FinalSuspectSidebar`就是`sidebarId`(见上文)。
 
 `dirName`是相对于`/docs`路径的文件夹。\
 这个光看配置应该就非常简单了,就是你的模组文档所在的文件夹,也就是模组全程。
