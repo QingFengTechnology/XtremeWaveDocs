@@ -28,8 +28,8 @@
 
 ```bash
 
-git clone git@github.com:<你的GitHub用户名>/WebSiteDocs.git
-cd WebSiteDocs
+git clone git@github.com:<你的GitHub用户名>/XtremeWaveModDocs.git
+cd XtremeWaveModDocs
 npm install
 npm run start
 
