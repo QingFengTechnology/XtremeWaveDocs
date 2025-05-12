@@ -79,7 +79,7 @@ const config = {
             position: 'right',
           },
           {
-            href: 'https://github.com/XtremeWave/WebSiteDocs',
+            href: 'https://github.com/QingFeng-awa/XtremeWaveModDocs',
             label: 'GitHub',
             position: 'right',
           }
@@ -93,7 +93,7 @@ const config = {
       },
       footer: {
         style: 'dark',
-        copyright: `© ${new Date().getFullYear()} XtremeWave`,
+        copyright: `© 2023-${new Date().getFullYear()} QingFeng`,
       },
       prism: {
         theme: prismThemes.github,

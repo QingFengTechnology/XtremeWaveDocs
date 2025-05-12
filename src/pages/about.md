@@ -36,7 +36,7 @@ title: 关于此文档
 ```
 MIT License
 
-Copyright (c) 2025 XtremeWave
+Copyright (c) 2023-2025 QingFeng
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -56,3 +56,11 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
+
+:::note
+
+XtremeWave文档站点（又称XW文档），GitHub仓库名XtremeWaveModDocs，不属于任何组织，也不属于任何自称为XtremeWave（中文名极致狂澜，简称XW）的组织成员。\
+此站点及仓库的所有权归属于QingFeng（GitHub用户名：QingFeng-awa）。\
+即使QingFeng声明为XtremeWave组织成员，此站点及相关内容仍为个人所有，与任何组织无关。
+
+:::
