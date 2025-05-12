@@ -1,4 +1,4 @@
-name: Auto Assign PullRequests
+name: Auto Assign PullRequest
 
 on:
   pull_request:
