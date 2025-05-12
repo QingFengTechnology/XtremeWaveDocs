@@ -6,9 +6,19 @@ sidebar_position: 3
 
 ## 自动导出
 
-你可以在设置中选择`Final Suspect功能`→`输出日志`,随后FS将打开输出日志所在的文件夹。
+你可以在Final Suspect功能中选择输出日志,随后FinalSuspect将打开输出日志所在的文件夹。
 
-有关自动导出日志的功能介绍,请查阅[此篇文档](/docs/FinalSuspect/Features/DumpLog)。
+有关自动导出日志的功能介绍,请查阅[此篇文档](../Features/DumpLog)。
+
+:::note
+
+FinalSuspect的输出目录位于下方路径:
+
+```
+%APPDATA%\..\LocalLow\Innersloth\Among Us\FinalSuspect\Logs\Final Suspect-logs
+```
+您可以按下Win + R,并粘贴这串路径来手动打开。
+:::
 
 ## 手动查看
 

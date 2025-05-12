@@ -18,8 +18,8 @@ const config = {
   url: 'https://docs.xtreme.net.cn',
   baseUrl: '/',
   trailingSlash: false,
-  organizationName: 'XtremeWave',
-  projectName: 'WebSiteDocs',
+  organizationName: 'QingFeng-awa',
+  projectName: 'XtremeWaveModDocs',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   i18n: {

@@ -1,25 +1,45 @@
 ---
 sidebar_position: 2
+description: 您可以选择自动更新,也可以手动更新。
 ---
 # 更新
 
 ## 自动更新
 
-游戏内已内置快速更新功能,可快速更新至最新版本。
+FinalSuspect已于游戏内内置更新检查,每次启动将自动检查更新。\
+在有更新时会要求您更新,否则您无法继续游玩。
 
-中国用户可选择通过API更新,非大陆用户也可选择GitHub更新。
+:::note
+
+Release版本与PublicBeta(也可称作Canary)版本的更新检查逻辑不同。\
+Release不会要求您更新到Canary版本,而Canary则不会进行更新检查。
+
+:::
 
 ## 手动更新
 
-如果要求您手动更新,您也可以通过下方教程手动更新。
+若遇上更新检查失败 / 下载出现问题也可以尝试手动更新。
 
-请访问[FinalSuspect的官方GitHub仓库](https://github.com/XtremeWave/FinalSuspect)并点击右侧带有**Latest**标签的Release,在最下方的Assets中点击下载`FinalSuspect.dll`。
+:::note
 
-中国用户可以选择从官方QQ群内(链接位于网站底部右侧)下载,文件位于`Final Suspect`文件夹中,请选择`FinalSuspect.dll
-`下载。
+一般而言我们推荐自动更新。\
+如果您遇上了网络问题,请参阅疑难解答。
 
-启动Steam,在库页面中选择Among Us,点击右侧的设置图标,选择`管理`→`浏览本地文件`。\
-Steam将打开Among Us根目录。
+:::
 
-打开BepInEx → plugins文件夹,将下载的dll覆盖旧的dll。\
-手动更新完成。
+访问[Release](https://github.com/XtremeWave/FinalSuspect/releases)页面,下载最新版本的dll文件。
+
+:::tip
+
+dll文件名称始终为`FinalSuspect.dll`。\
+您也不应该重命名此文件。
+
+:::
+
+打开AmongUs根目录,再继续打开`BepInEx\plugins`文件夹。\
+将下载的dll文件替换掉原有的dll文件。
+
+:::tip 如何打开根目录请参阅[安装教程](Installation)。
+:::
+
+至此,更新结束。
