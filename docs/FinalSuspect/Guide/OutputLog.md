@@ -28,4 +28,4 @@ FinalSuspect的输出目录位于下方路径:
 Steam将打开Among Us根目录。
 
 打开`BepInEx`文件夹,其中的`LogOutput.log`便是日志文件。\
-该文件随着你重新启动FS自动清除。
+该文件随着你重新启动FinalSuspect自动清除。
