@@ -23,7 +23,7 @@ const FeatureList = [
     title: 'Harry Potter AmongUs R',
     description: (
       <>
-        A theme-based Among Us mod that adds items and roles related to the Harry Potter movies/books.(Harry Potter Among Us Reactivated)
+        A theme-based Among Us mod that adds items and roles related to the Harry Potter movies/books.
       </>
     ),
   },
@@ -40,6 +40,14 @@ const FeatureList = [
     description: (
       <>
         A branch derived to continue the glory of the past.
+      </>
+    ),
+  },
+  {
+    title: 'Xtreme API',
+    description: (
+      <>
+        Just apply, and you'll get stable cloud services for your project.
       </>
     ),
   },

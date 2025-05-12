@@ -74,6 +74,11 @@ const config = {
             ]
           },
           {
+            type: 'docSidebar',
+            sidebarId: 'APISidebar',
+            label: 'API文档',
+          },
+          {
             href: 'https://www.xtreme.net.cn',
             label: '主站',
             position: 'right',
