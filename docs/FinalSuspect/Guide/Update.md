@@ -20,11 +20,7 @@ Release不会要求您更新到Canary版本,而Canary则不会进行更新检查
 
 若遇上更新检查失败 / 下载出现问题也可以尝试手动更新。
 
-:::note
-
-一般而言我们推荐自动更新。\
-如果您遇上了网络问题,请参阅疑难解答。
-
+:::note 如非必要,我们建议您自动更新。
 :::
 
 访问[Release](https://github.com/XtremeWave/FinalSuspect/releases)页面,下载最新版本的dll文件。
