@@ -1,0 +1,44 @@
+name: Approve PullRequest
+on:
+  issue_comment:
+    types: [created]
+permissions:
+  pull-requests: write
+jobs:
+  check-and-approve:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Debug Event Data
+      run: |
+        echo "Event type: ${{ github.event_name }}"
+        echo "Is PR: ${{ github.event.issue.pull_request }}"
+        echo "Comment body: ${{ github.event.comment.body }}"
+        echo "Commenter: ${{ github.event.comment.user.login }}"
+        
+    - name: Check for /approve command
+      if: github.event.issue.pull_request && contains(github.event.comment.body, '/approve')
+      id: check_approve
+      uses: actions/github-script@v6
+      with:
+        script: |
+          console.log('Starting approval process...');
+          const commenter = context.payload.comment.user.login;
+          console.log(`Commenter: ${commenter}`);
+          
+          if (commenter === 'QingFeng-awa') {
+            const prNumber = context.payload.issue.number;
+            console.log(`Approving PR #${prNumber}`);
+            
+            await github.rest.pulls.createReview({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              pull_number: prNumber,
+              event: 'APPROVE'
+            });
+            
+            console.log('PR approved successfully');
+            return 'PR approved by authorized user';
+          } else {
+            console.log(`Unauthorized user attempted approval: ${commenter}`);
+            return 'Approval attempt by unauthorized user: ' + commenter;
+          }
