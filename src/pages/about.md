@@ -24,7 +24,7 @@ title: 关于此文档
 我们鼓励所有人共同维护模组文档。\
 如果您发现了错误或发现了缺少文档,我们欢迎您一同参与到文档编辑中来。
 
-当前仓库地址为[XtremeWave/WebSiteDocs](https://github.com/XtremeWave/WebSiteDocs),有关如何贡献,请参阅本仓库的贡献指南。
+有关如何贡献,请参阅本仓库的[贡献指南](https://github.com/QingFeng-awa/XtremeWaveModDocs/blob/main/CONTRIBUTING.md)。
 
 感谢以下为文档做出贡献的开发者们:
 
