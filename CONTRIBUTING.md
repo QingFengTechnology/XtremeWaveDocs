@@ -238,4 +238,10 @@ Docusaurus会自动使用文档的(不包括一级标题)第一行来作为描�
 您应至少积攒几个commit,然后一次性推送。
 
 这将减少Actions的运行次数,从而减少资源消耗。
-> GitHub对个人账户的公共仓库提供无限的Actions运行时间,但即使如此,你也不应该频繁触发。
+
+## 更新说明
+
+### 5274c50 ( [Pr#6](https://github.com/QingFengTechnology/XtremeWaveDocs/pull/6) )
+
+此commit支持文档搜索,但也同时更改了`routeBasePath`配置。\
+在此之后,访问文档时将不再需要添加`/docs`前缀。
