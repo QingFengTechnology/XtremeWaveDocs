@@ -33,6 +33,7 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
+          routeBasePath: '/',
           sidebarPath: './sidebars.js',
           editUrl:
             'https://github.com/XtremeWave/WebSiteDocs',
@@ -44,7 +45,22 @@ const config = {
       }),
     ],
   ],
-
+  themes: [
+    [
+      "@easyops-cn/docusaurus-search-local",
+      /** @type {import("@easyops-cn/docusaurus-search-local").PluginOptions} */
+      ({
+        indexBlog: false,
+        docsRouteBasePath: "/",
+        language: "zh",
+        highlightSearchTermsOnTargetPage: true,
+        searchResultLimits: 10,
+        explicitSearchResultPath: true,
+        searchBarShortcutHint: false,
+        searchBarPosition: "right",
+      }),
+    ],
+  ],
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
