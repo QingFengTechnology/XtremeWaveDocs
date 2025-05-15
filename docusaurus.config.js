@@ -113,7 +113,6 @@ const config = {
         },
       },
       footer: {
-        style: 'dark',
         copyright: `© 2023-${new Date().getFullYear()} QingFeng`,
       },
       prism: {
