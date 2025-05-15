@@ -59,6 +59,7 @@ const config = {
         searchBarShortcutHint: false,
         searchBarPosition: "right",
         forceIgnoreNoIndex: true,
+        fuzzyMatchingDistance: 3,
       }),
     ],
   ],
