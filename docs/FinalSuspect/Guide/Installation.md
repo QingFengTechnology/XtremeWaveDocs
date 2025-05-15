@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # 安装
 
-此教程适用于Windows平台。
+此教程适用于**Windows**。
 
 ## 下载
 
@@ -34,7 +34,7 @@ sidebar_position: 1
 ```
 C:\Program Files (x86)\Steam\steamapps\common\Among Us
 ```
-按下Win + R,并粘贴这串路径即可打开AmongUs目录。
+按下**Win + R**,并粘贴这串路径即可打开AmongUs目录。
 
 :::
 :::tip
@@ -61,7 +61,7 @@ C:\Program Files (x86)\Steam\steamapps\common\Among Us
 ```
 C:\Program Files\Epic Games\AmongUs
 ```
-按下Win + R,并粘贴这串路径即可打开AmongUs目录。
+按下**Win + R**,并粘贴这串路径即可打开AmongUs目录。
 
 :::
 :::tip
@@ -80,8 +80,8 @@ C:\Program Files\Epic Games\AmongUs
 
 :::danger Epic不支持非官方目录
 
-这意味着你只能将模组安装在官方目录下,且无法同时安装多模组。\
-如果您使用Epic版的AmongUs且安装在了非官方目录,AmongUs将提示校验失败。\
-您将无法进入游戏。
+这意味着你只能将模组**安装在官方目录下**,且**无法同时安装多个模组**。\
+如果您使用Epic版的AmongUs且安装在了非官方目录,AmongUs将提示**校验失败**。\
+您将**无法进入游戏**。
 
 :::

@@ -11,4 +11,4 @@ XtremeAPI允许您托管您项目的静态资源至云端,以便减少您的项�
 ## 使用本服务的项目
 
 - [FinalSuspect](/FinalSuspect)
-- [XtremeDocs(也就是本项目)](/)
+- [XtremeDocs](/)
