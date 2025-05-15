@@ -12,4 +12,4 @@
 
 :::
 
-![FastBoot.png](/img/FastBoot.png)
+![FastBoot.png](https://api.xtreme.net.cn/Docs/FinalSuspect/Options/FastBoot.png)
