@@ -4,4 +4,4 @@
 功能能在维持聊天可读性的同时,有效减少违规内容传播。\
 您可以在设置中关闭此功能。
 
-![SpamDenyWord.png](/img/SpamDenyWord.png)
+![SpamDenyWord.png](https://api.xtreme.net.cn/Docs/FinalSuspect/Options/SpamDenyWord.png)

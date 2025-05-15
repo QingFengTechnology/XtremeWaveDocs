@@ -5,4 +5,4 @@
 > 功能会覆盖你的自定义光标。\
 > 除非你用的Windows默认,否则一般而言我们建议是关闭的。
 
-<img src="/img/Cursor.png" wdith="256px" height="256px"/>
+<img src="https://api.xtreme.net.cn/Docs/FinalSuspect/Options/Cursor.png" wdith="256px" height="256px"/>

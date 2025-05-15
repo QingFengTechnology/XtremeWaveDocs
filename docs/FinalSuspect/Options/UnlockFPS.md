@@ -9,4 +9,4 @@
 部分旧型号主机或性能不足的设备可能无法稳定维持高帧率运行。
 
 :::
-![UnlockFPS.png](/img/UnlockFPS.png)
+![UnlockFPS.png](https://api.xtreme.net.cn/Docs/FinalSuspect/Options/UnlockFPS.png)

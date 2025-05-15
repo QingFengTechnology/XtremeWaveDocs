@@ -10,4 +10,4 @@
 
 :::
 
-![ShowPlayerInfo.png](/img/ShowPlayerInfo.png)
+![ShowPlayerInfo.png](https://api.xtreme.net.cn/Docs/FinalSuspect/Options/ShowPlayerInfo.png)
