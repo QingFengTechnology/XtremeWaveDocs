@@ -18,7 +18,7 @@ sidebar_position: 5
 
 ### 错误代码: ErrSteamWorksAuthFail
 
-请启动Steam后再打开AmongUs。
+请**启动Steam后再打开AmongUs**。
 
 如果你将FinalSuspect安装在了官方目录,你可以直接通过Steam来打开AmongUs。
 
@@ -27,12 +27,12 @@ sidebar_position: 5
 :::note 样本较少,可能解决方案不通用。
 :::
 
-请重启AmongUs以重试登录。
+请**重启AmongUs**以重试登录。
 
 ### 无错误代码提示,但提示`登录需要一点时间`
 
 网络问题。\
-请重启AmongUs并确认你是否挂了加速器。
+请**重启AmongUs并确认你是否挂了加速器**。
 
 :::note
 部分情况可能需要挂代理(VPN)。\
