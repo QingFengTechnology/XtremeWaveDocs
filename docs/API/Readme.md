@@ -4,7 +4,7 @@ sidebar_position: 1
 ---
 # API简介
 
-XtremeWave API (又称XtremeAPI,XAPI)是由XtremeWave提供的API服务,你可以在这里托管你的项目资源。
+XtremeWave API (又称XtremeAPI)是由XtremeWave提供的API服务,你可以在这里托管你的项目资源。
 
 ## 可以做什么?
 

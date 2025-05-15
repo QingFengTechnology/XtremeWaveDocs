@@ -40,13 +40,13 @@ C:\Program Files (x86)\Steam\steamapps\common\Among Us
 :::tip
 
 您也可以通过Steam来自动打开AmongUs根目录。
-![使用Steam打开AmongUs根目录](https://api.xtreme.net.cn/Docs/OpenAmongUsWithSteam.png)
+![使用Steam打开AmongUs根目录](https://api.xtreme.net.cn/Docs/FinalSuspect/Guide/OpenAmongUsWithSteam.png)
 :::
 
 将Finalsuspect解压至AmongUs根目录。\
 解压完成后,AmongUs根目录应该是这样的:
 
-![解压后的AmongUs根目录](https://api.xtreme.net.cn/Docs/SteamUnzip.png)
+![解压后的AmongUs根目录](https://api.xtreme.net.cn/Docs/FinalSuspect/Guide/SteamUnzip.png)
 
 至此,安装结束。
 
@@ -67,14 +67,14 @@ C:\Program Files\Epic Games\AmongUs
 :::tip
 
 您也可以通过Epic来自动打开AmongUs根目录。
-![使用Epic打开AmongUs根目录](https://api.xtreme.net.cn/Docs/OpenAmongWithEpic.png)
-![使用Epic打开AmongUs根目录2](https://api.xtreme.net.cn/Docs/OpenAmongWithEpic2.png)
+![使用Epic打开AmongUs根目录](https://api.xtreme.net.cn/Docs/FinalSuspect/Guide/OpenAmongWithEpic.png)
+![使用Epic打开AmongUs根目录2](https://api.xtreme.net.cn/Docs/FinalSuspect/Guide/OpenAmongWithEpic2.png)
 :::
 
 将Finalsuspect解压至AmongUs根目录。\
 解压完成后,AmongUs根目录应该是这样的:
 
-![解压后的AmongUs根目录](https://api.xtreme.net.cn/Docs/EpicUnzip.png)
+![解压后的AmongUs根目录](https://api.xtreme.net.cn/Docs/FinalSuspect/Guide/EpicUnzip.png)
 
 至此,安装结束。
 
