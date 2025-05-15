@@ -12,7 +12,7 @@ sidebar_position: 5
 您可以下载上一个版本的安装包,随后按照正常方式安装FinalSuspect。\
 随后FinalSuspect应该会要求你更新,照流程更新即可。
 
-如果没有提示(可能是因为Canary),你可以安装[更新教程](Guide/Update#手动更新)手动更新。
+如果没有提示(可能是因为Canary),你可以根据[更新教程](Guide/Update#手动更新)手动更新。
 
 ## AmongUs客户端提示错误
 

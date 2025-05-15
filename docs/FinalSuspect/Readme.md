@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # 简介
 
-![FinalSuspect-BG](/img/FSX&XW.png)
+![FinalSuspect-BG](https://api.xtreme.net.cn/Docs/FinalSuspect/FSX&XW.png)
 Final Suspect 终极嫌疑，您最棒的Among Us原版辅助模组。
 
 FinalSuspect是一个适用于Among Us的原版优化插件。\
