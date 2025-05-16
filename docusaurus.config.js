@@ -2,54 +2,29 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  headTags: [
-    {
-      tagName: 'link',
-      attributes: {
-        rel: "icon",
-        type: "image/png",
-        href: '/img/XtremeWave.png',
-      },
-    },
-  ],
+/* 配置文件参考: https://docusaurus.io/zh-CN/docs/api/docusaurus-config
+  此配置顺序完全遵循文档。 */
   title: '极致文档',
-  tagline: 'XtremeWave官方文档',
-  favicon: 'img/XtremeWave.ico',
   url: 'https://docs.xtreme.net.cn',
   baseUrl: '/',
+  favicon: 'img/XtremeWave.ico',
   trailingSlash: false,
-  organizationName: 'QingFeng-awa',
-  projectName: 'XtremeWaveModDocs',
-  onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
   i18n: {
     defaultLocale: 'zh-Hans',
     locales: ['zh-Hans'],
   },
-  noIndex: true,
-  presets: [
-    [
-      'classic',
-      /** @type {import('@docusaurus/preset-classic').Options} */
-      ({
-        docs: {
-          routeBasePath: '/',
-          sidebarPath: './sidebars.js',
-          editUrl:
-            'https://github.com/XtremeWave/WebSiteDocs',
-        },
-        blog: false,
-        theme: {
-          customCss: './src/css/custom.css',
-        },
-      }),
-    ],
-  ],
+  onBrokenLinks: 'throw',
+  onBrokenMarkdownLinks: 'throw',
+  onDuplicateRoutes: 'throw',
+  tagline: 'XtremeWave官方文档',
+  organizationName: 'QingFeng-awa',
+  projectName: 'XtremeWaveModDocs',
   themes: [
     [
       "@easyops-cn/docusaurus-search-local",
       /** @type {import("@easyops-cn/docusaurus-search-local").PluginOptions} */
       ({
+        // 插件仓库: https://github.com/easyops-cn/docusaurus-search-local
         indexBlog: false,
         docsRouteBasePath: "/",
         language: ["en","zh"],
@@ -63,14 +38,57 @@ const config = {
       }),
     ],
   ],
+  presets: [
+    [
+      'classic',
+      /** @type {import('@docusaurus/preset-classic').Options} */
+      ({
+        docs: {
+          routeBasePath: '/',
+          sidebarPath: './sidebars.js',
+          editUrl:
+            'https://github.com/XtremeWave/WebSiteDocs',
+          sidebarCollapsed: false,
+          showLastUpdateAuthor: true,
+          showLastUpdateTime: true,
+        },
+        blog: false,
+        sitemap: {
+          changefreq: 'daily',
+          priority: 0.5,
+          ignorePatterns: ['/API'],
+        },
+        theme: {
+          customCss: './src/css/custom.css',
+        },
+      }),
+    ],
+  ],
+  headTags: [
+    {
+      tagName: 'link',
+      attributes: {
+        rel: "icon",
+        type: "image/png",
+        href: '/img/XtremeWave.png',
+      },
+    },
+  ],
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      image: 'img/docusaurus-social-card.jpg',
+      // 主题设置文档: https://docusaurus.io/zh-CN/docs/api/themes/configuration
+      respectPrefersColorScheme: true,
+      docs: {
+        sidebar: {
+          hideable: true,
+          autoCollapseCategories: true,
+        },
+      },
       navbar: {
         title: '极致文档',
         logo: {
-          alt: 'XtremeWave Logo',
+          alt: 'Logo',
           src: 'img/XtremeWave.png',
         },
         items: [
@@ -107,12 +125,7 @@ const config = {
             position: 'right',
           }
         ],
-      },
-      docs: {
-        sidebar: {
-          hideable: true,
-          autoCollapseCategories: true,
-        },
+        hideOnScroll: true,
       },
       footer: {
         copyright: `© 2023-${new Date().getFullYear()} QingFeng`,
@@ -120,6 +133,10 @@ const config = {
       prism: {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
+      },
+      tableOfContents: {
+        minHeadingLevel: 2,
+        maxHeadingLevel: 5,
       },
     }),
 };
