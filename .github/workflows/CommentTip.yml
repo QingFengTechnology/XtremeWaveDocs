@@ -14,7 +14,7 @@ jobs:
         uses: actions/github-script@v6
         with:
           script: |
-            const comment = "您创建了一个拉取请求。\n我们已要求 @QingFeng-awa 受理,请耐心等待。\n(QingFeng大概于下午5点 - 次日上午10点**在线**)";
+            const comment = "您创建了一个拉取请求。\n我们已要求 @QingFeng-awa 受理,请耐心等待。\n您的拉取请求将在24小时内被处理。)";
             
             await github.rest.issues.createComment({
               issue_number: context.issue.number,
