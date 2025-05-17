@@ -3,9 +3,7 @@ name: Comment Pr Tip
 on:
   pull_request:
     types: [opened]
-permissions:
-  pull-requests: write
-
+permissions: write-all
 jobs:
   add-comment:
     runs-on: ubuntu-latest
