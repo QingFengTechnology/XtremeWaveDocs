@@ -3,12 +3,11 @@ name: Auto Assign PullRequest
 on:
   pull_request:
     types: [opened]
-
+permissions:
+    pull-requests: write
 jobs:
   assign-pr:
     runs-on: ubuntu-latest
-    permissions:
-      pull-requests: write
     steps:
       - name: Assign PR to QingFeng-awa
         uses: actions/github-script@v6
