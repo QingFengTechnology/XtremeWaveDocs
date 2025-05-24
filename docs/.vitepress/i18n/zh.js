@@ -1,6 +1,6 @@
 import { defineConfig } from 'vitepress';
 
-export const zh = defineConfig({
+export const zhLocaleConfig = defineConfig({
   label: '简体中文',
   lang: 'zh-CN',
   title: "XtremeWave模组文档",
