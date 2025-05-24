@@ -2,7 +2,7 @@
 
 > [!CAUTION]
 > 当前版本(v1)已停止开发,我们将继续维护新版本(v2)的文档站点。\
-> 我们将在v2版本中使用[VitePress](https://vitepress.dev/zh/)作为SSG,这是一个BrakingChange。\
+> 我们将在v2版本中使用[VitePress](https://vitepress.dev/zh/)作为SSG,这是一个BreakingChange。\
 > 您应停止对当前版本的贡献并准备好迁移至VitePress。
 
 这里是[XtremeWave模组文档](https://docs.xtreme.net.cn)的源码。\
