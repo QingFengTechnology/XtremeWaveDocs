@@ -1,5 +1,5 @@
 files:
-  - source: /docs
+  - source: /docs/**/*.md
     ignore:
       - public/
       - .vitepress/
