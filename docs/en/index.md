@@ -1,10 +1,10 @@
 ---
-title: XtremeWave模组文档
+title: XtremeWave Mod Docs
 titleTemplate: false
 layout: home
 hero:
-  name: XtremeWave Docs
-  tagline: XtremeWave模组文档
+  name: XtremeDocs
+  tagline: " XtremeWave Mod Docs"
   image:
     src: /XtremeWave(Projector).png
     alt: XtremeWave Logo
