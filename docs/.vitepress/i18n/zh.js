@@ -1,4 +1,5 @@
 import { defineConfig } from 'vitepress';
+import { calculateSidebar } from '@nolebase/vitepress-plugin-sidebar'
 
 export const zhLocaleConfig = defineConfig({
   label: '简体中文',
@@ -12,6 +13,9 @@ export const zhLocaleConfig = defineConfig({
       { text: '首页', link: '/' },
       { text: '关于', link: '/about' }
     ],
+    sidebar: calculateSidebar([ 
+      { folderName: 'FinalSuspect', separate: true }, 
+    ]), 
     outline: {
       label: "页面导航"
     },
