@@ -1,5 +1,6 @@
 import { defineConfig } from 'vitepress'
 import { zhLocaleConfig } from './i18n/zh.js'
+import { enLocaleConfig } from './i18n/en.js'
 
 import { 
   GitChangelog, 
@@ -43,7 +44,8 @@ export default defineConfig({
   lastUpdated: false,
   locales: {
     // i18n教程: https://vitepress.dev/zh/guide/i18n
-    root: zhLocaleConfig
+    root: zhLocaleConfig,
+    en: enLocaleConfig
   },
   themeConfig: {
     // 主题配置参考(和站点不同哦): https://vitepress.dev/zh/reference/default-theme-config

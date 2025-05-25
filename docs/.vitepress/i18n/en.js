@@ -1,6 +1,6 @@
 import { defineConfig } from 'vitepress';
 import { calculateSidebar } from '@nolebase/vitepress-plugin-sidebar';
-export const zhLocaleConfig = defineConfig({
+export const enLocaleConfig = defineConfig({
   label: 'English',
   lang: 'en-US',
   title: 'XtremeWave Mod Docs',
@@ -11,11 +11,11 @@ export const zhLocaleConfig = defineConfig({
     nav: [
       {
         text: 'Home',
-        link: '/',
+        link: '/en/',
       },
       {
         text: 'About',
-        link: '/about',
+        link: '/en/about',
       },
     ],
     sidebar: calculateSidebar([

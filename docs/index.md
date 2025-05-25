@@ -4,7 +4,7 @@ titleTemplate: false
 layout: home
 
 hero:
-  name: "XtremeWave Docs"
+  name: XtremeDocs
   tagline: XtremeWave模组文档
   image:
     src: /XtremeWave(Projector).png
