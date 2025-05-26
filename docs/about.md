@@ -3,8 +3,11 @@
 这里是所属XtremeWave模组的文档。\
 所有XtremeWave模组的所有可用版本文档均应放置在此处。
 
-> [!NOTE]
-> 此文档使用[VitePress](https://github.com/vuejs/vitepress)作为静态站点生成器(SSG),版本为[1.6.3](https://github.com/vuejs/vitepress/releases/tag/v1.6.3)。
+::: info
+
+此文档使用[VitePress](https://github.com/vuejs/vitepress)作为静态站点生成器(SSG),版本为[1.6.3](https://github.com/vuejs/vitepress/releases/tag/v1.6.3)。
+
+:::
 
 ## 赞助
 
