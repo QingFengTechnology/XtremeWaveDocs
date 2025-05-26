@@ -16,7 +16,7 @@ export const enLocaleConfig = defineConfig({
       {
         text: 'About',
         link: '/en/about',
-      },
+      }
     ],
     sidebar: calculateSidebar([
       {
