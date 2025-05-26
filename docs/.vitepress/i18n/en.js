@@ -1,5 +1,4 @@
 import { defineConfig } from 'vitepress';
-import { calculateSidebar } from '@nolebase/vitepress-plugin-sidebar';
 export const zhLocaleConfig = defineConfig({
   label: 'English',
   lang: 'en-US',
@@ -17,13 +16,16 @@ export const zhLocaleConfig = defineConfig({
         text: 'About',
         link: '/about',
       },
-    ],
-    sidebar: calculateSidebar([
       {
-        folderName: 'FinalSuspect',
-        separate: true,
+        text: '文档',
+        items: [
+          {
+            text: 'FinalSuspect',
+            items: [],
+          },
+        ],
       },
-    ]),
+    ],
     outline: {
       label: 'On this page',
     },
