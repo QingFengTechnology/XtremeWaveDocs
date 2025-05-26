@@ -16,7 +16,7 @@ export const enLocaleConfig = defineConfig({
       {
         text: 'About',
         link: '/en/about',
-      },
+      }
     ],
     sidebar: calculateSidebar([
       {
@@ -28,8 +28,7 @@ export const enLocaleConfig = defineConfig({
       label: 'On this page',
     },
     footer: {
-      message:
-        "Cloud services provided by <a href='https://www.rainyun.com/QingFeng_?s=XtremeDocs' target='_blank'>Rainyun</a>",
+      message: "Cloud services provided by <a href='https://www.rainyun.com/QingFeng_?s=XtremeDocs' target='_blank'>Rainyun</a>",
       copyright: "© 2023-2025 By <a href='https://qingfengawa.top' target='_blank'>QingFeng</a>",
     },
     editLink: {
