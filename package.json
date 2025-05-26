@@ -8,7 +8,6 @@
     "@nolebase/vitepress-plugin-enhanced-mark": "^2.17.0",
     "@nolebase/vitepress-plugin-enhanced-readabilities": "^2.17.0",
     "@nolebase/vitepress-plugin-git-changelog": "^2.17.0",
-    "@nolebase/vitepress-plugin-highlight-targeted-heading": "^2.17.0",
-    "@nolebase/vitepress-plugin-sidebar": "^2.17.0"
+    "@nolebase/vitepress-plugin-highlight-targeted-heading": "^2.17.0"
   }
 }
