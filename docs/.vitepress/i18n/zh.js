@@ -1,5 +1,4 @@
 import { defineConfig } from 'vitepress';
-import { calculateSidebar } from '@nolebase/vitepress-plugin-sidebar'
 
 export const zhLocaleConfig = defineConfig({
   label: '简体中文',
@@ -11,11 +10,18 @@ export const zhLocaleConfig = defineConfig({
     siteTitle: "极致文档",
     nav: [
       { text: '首页', link: '/' },
-      { text: '关于', link: '/about' }
+      { text: '关于', link: '/about' },
+      {
+        text: '文档',
+        items: [
+          { 
+            text: 'FinalSuspect',
+            items: [
+            ] 
+          },
+        ]
+      }
     ],
-    sidebar: calculateSidebar([ 
-      { folderName: 'FinalSuspect', separate: true }, 
-    ]), 
     outline: {
       label: "页面导航"
     },
@@ -36,6 +42,6 @@ export const zhLocaleConfig = defineConfig({
     darkModeSwitchTitle: "点击以切换至深色模式",
     sidebarMenuLabel: "菜单",
     returnToTopLabel: "返回顶部",
-    langMenuLabel: "语言",
+    langMenuLabel: "语言"
   }
 })
