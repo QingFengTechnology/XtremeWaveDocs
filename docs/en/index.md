@@ -4,7 +4,7 @@ titleTemplate: false
 layout: home
 hero:
   name: XtremeDocs
-  tagline: " XtremeWave Mod Docs"
+  tagline: XtremeWave Mod Docs
   image:
     src: /XtremeWave(Projector).png
     alt: XtremeWave Logo
