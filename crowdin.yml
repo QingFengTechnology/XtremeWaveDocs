@@ -1,21 +1,14 @@
 files:
-  - source: /docs/.vitepress/i18n/zh.js
-    translation: /docs/.vitepress/i18n/%two_letters_code%.js
-  - source: /docs/FinalSuspect/*.md
+  - source: /**/*.md
     ignore:
-      - .vitepress/
-      - public/
-    translation: /docs/%two_letters_code%/FinalSuspect/%original_file_name%
-  - source: /docs/FinalSuspect/Features
-    ignore:
-      - index.md
-      - FAQ.md
-    translation: /docs/%two_letters_code%/FinalSuspect/Features/%original_file_name%
-  - source: /docs/FinalSuspect/Options
-    translation: /docs/%two_letters_code%/FinalSuspect/Options/%original_file_name%
-  - source: /docs/FinalSuspect/Guide
-    translation: /docs/%two_letters_code%/FinalSuspect/Guide/%original_file_name%
-  - source: /docs/.vitepress/i18n/navbar/zh.js
-    translation: /docs/.vitepress/i18n/navbar/%two_letters_code%.js
-  - source: /docs/.vitepress/i18n/sidebar/zh
-    translation: /docs/.vitepress/i18n/sidebar/%two_letters_code%/%original_file_name%
+      - CONTRIBUTING.md
+      - Readme.md
+    translation: /%two_letters_code%/%original_path%/%original_file_name%
+  - source: .vitepress/i18n/zh.js
+    translation: /.vitepress/i18n/%two_letters_code%.js
+    multilingual: 1
+  - source: .vitepress/i18n/sidebar/zh/*.js
+    translation: /.vitepress/i18n/sidebar/%two_letters_code%/%original_file_name%
+  - source: .vitepress/i18n/navbar/zh.js
+    translation: /.vitepress/i18n/navbar/%two_letters_code%.js
+    multilingual: 1
