@@ -55,7 +55,7 @@ export default defineConfig({
       { icon: 'github', link: 'https://github.com/XtremeWave' }
     ],
     footer: {
-      copyright: '© 2023-2025 By QingFeng'
+      copyright: "© 2023-2025 By <a href='https://qingfengawa.top' target='_blank'>QingFeng</a>"
     },
     search: {
       provider: 'local',
