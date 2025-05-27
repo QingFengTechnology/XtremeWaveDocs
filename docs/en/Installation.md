@@ -1,30 +1,12 @@
----
-sidebar_position: 1
----
-
-# 安装
+# 安装 {#installation}
 
 此教程适用于**Windows**。
 
-## 下载
+## 下载 {#download}
 
 访问[Release](https://github.com/XtremeWave/FinalSuspect/releases)页面,下载最新版本的安装包。
 
-:::tip 安装包名称一般为`Final.Suspect.<当前版本>.zip`。
-::::::note 我们推荐您下载最新版本的安装包,即使他是开发版本。
-:::
-
-:::note 我们推荐您下载最新版本的安装包,即使他是开发版本。
-:::
-
-:::note
-
-有些版本可能未提供安装包。\
-对于此种情况,请参阅[疑难解答](../FAQ#最新版本没有安装包我该如何安装)。
-
-:::
-
-## 安装(Steam)
+## 安装(Steam) {#steam-installation}
 
 打开AmongUs根目录。
 
@@ -36,7 +18,7 @@ sidebar_position: 1
 C:\Program Files (x86)\Steam\steamapps\common\Among Us
 ```
 
-按下**Win + R**,并粘贴这串路径即可打开AmongUs目录。
+按下`Win` + `R`,并粘贴这串路径即可打开AmongUs目录。
 
 :::
 :::tip
@@ -52,7 +34,7 @@ C:\Program Files (x86)\Steam\steamapps\common\Among Us
 
 至此,安装结束。
 
-## 安装(Epic)
+## 安装(Epic) {#epic-installation}
 
 打开AmongUs根目录。
 
@@ -64,7 +46,7 @@ C:\Program Files (x86)\Steam\steamapps\common\Among Us
 C:\Program Files\Epic Games\AmongUs
 ```
 
-按下**Win + R**,并粘贴这串路径即可打开AmongUs目录。
+按下`Win` + `R`,并粘贴这串路径即可打开AmongUs目录。
 
 :::
 :::tip
