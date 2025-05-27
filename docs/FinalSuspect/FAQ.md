@@ -24,7 +24,10 @@ sidebar_position: 5
 
 ### 错误代码: ErrFriendCodeFail {#ErrFriendCodeFail}
 
-:::note 样本较少,可能解决方案不通用。
+:::warning
+
+样本较少,可能解决方案不通用。
+
 :::
 
 请**重启AmongUs**以重试登录。
