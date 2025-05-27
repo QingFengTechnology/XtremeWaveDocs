@@ -16,7 +16,9 @@ export const zhLocaleConfig = defineConfig({
       label: "页面导航"
     },
     editLink: {
-      pattern: 'https://github.com/QingFengTechnology/XtremeWaveDocs/blob/v2/:path',
+      // 目前pattern在`config.mjs`中定义后,若不在语言配置中定义会导致pattern无法生效。
+      // 这似乎与VitePress所说的`浅层合并`(也许是我理解错误?)不符。
+      pattern: 'https://github.com/QingFengTechnology/XtremeWaveDocs/blob/v2/docs/:path',
       text: '在Github上查看此页'
     },
     docFooter: {

@@ -47,6 +47,11 @@ export default defineConfig({
   head: [['link', { rel: 'icon', type: 'image/png', href: '/XtremeWave.png' }]],
   base: '/',
   cleanUrls: true,
+  editLink: {
+    pattern: 'https://github.com/QingFengTechnology/XtremeWaveDocs/blob/v2/docs/:path',
+    // 若对应语言配置未定义text,那么就会使用此处的设置。
+    text: 'View this page on Github'
+  },
   lastUpdated: false,
   locales: {
     // i18n教程: https://vitepress.dev/zh/guide/i18n
