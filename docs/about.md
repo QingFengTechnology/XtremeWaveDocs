@@ -20,6 +20,7 @@
 如果您发现了错误或发现了缺少文档,我们欢迎您一同参与到文档编辑中来。
 
 有关如何贡献,请参阅本仓库的[贡献指南](https://github.com/QingFeng-awa/XtremeWaveModDocs/blob/v2/CONTRIBUTING.md)。
+> 此文档仓库为[QingFengTechnology/XtremeWaveDocs](https://github.com/QingFengTechnology/XtremeWaveDocs),与右上角GitHub社交链接不属于同一组织哦。
 
 感谢以下为文档做出贡献的开发者们:
 
