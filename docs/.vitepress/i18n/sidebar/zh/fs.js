@@ -44,7 +44,8 @@ export const fsModSidebarConfig = defineConfig([
           { text: '使用模组鼠标光标', link: 'UseModCursor' },
           { text: '快速启动模式', link: 'FastBoot' }
         ]
-      }
+      },
+      { text: '疑难解答', link: '/FinalSuspect/FAQ' }
     ]
   }
 ])
