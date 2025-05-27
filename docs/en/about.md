@@ -1,29 +1,35 @@
-# About
+# 关于此文档 {#about}
 
 This is the documentation for the mods under XtremeWave.\
 You can view all available documentation for the XtremeWave mods here.
 
-> This document uses [VitePress](https://github.com/vuejs/vitepress) as the static site generator (SSG), version [1.6.3](https://github.com/vuejs/vitepress/releases/tag/v1.6.3).
+::: info
 
-## Sponsor
+此文档使用[VitePress](https://github.com/vuejs/vitepress)作为静态站点生成器(SSG),版本为[1.6.3](https://github.com/vuejs/vitepress/releases/tag/v1.6.3)。
 
-If you like this project, please consider [sponsoring us](https://www.xtreme.net.cn/donate).\
-Your support will help us continue to maintain and improve this document.
+:::
 
-## Contribution
+## 赞助 {#donate}
 
-We encourage everyone to work together to maintain the mod documentation.\
-If you find any errors or notice missing documentation, you are welcome to join in the editing process.
+如果您喜欢这个项目,不妨考虑[赞助我们](https://www.xtreme.net.cn/donate)。\
+您的支持将帮助我们继续维护和改进此文档。
 
-For information on how to contribute, please refer to the [contribution guidelines](https://github.com/QingFeng-awa/XtremeWaveModDocs/blob/v2/CONTRIBUTING.md) in the code repository.
+## 贡献 {#contribute}
 
-We extend our gratitude to the following developers for their contributions to this document:
+我们鼓励所有人共同维护模组文档。\
+如果您发现了错误或发现了缺少文档,我们欢迎您一同参与到文档编辑中来。
 
-![Document Contributors List](https://contrib.rocks/image?repo=XtremeWave/WebSiteDocs)
+有关如何贡献,请参阅本仓库的[贡献指南](https://github.com/QingFeng-awa/XtremeWaveModDocs/blob/v2/CONTRIBUTING.md)。
 
-## License
+> 此文档仓库为[QingFengTechnology/XtremeWaveDocs](https://github.com/QingFengTechnology/XtremeWaveDocs),与右上角GitHub社交链接不属于同一组织哦。
 
-This document is licensed under the MIT License, please comply with the relevant agreement.
+感谢以下为文档做出贡献的开发者们:
+
+![文档贡献者](https://contrib.rocks/image?repo=XtremeWave/WebSiteDocs)
+
+## 许可证 {#license}
+
+本文档采用MIT许可证,请遵守相关协议。
 
 ```
 MIT License
