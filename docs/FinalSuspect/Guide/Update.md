@@ -14,13 +14,13 @@ Release不会要求您更新到Canary版本,而Canary则不会进行更新检查
 
 ## 手动更新 {#manual-update}
 
-若遇上更新检查失败 / 下载出现问题也可以尝试手动更新。
-
 :::warning
 
 如非必要,我们建议您自动更新。
 
 :::
+
+若遇上更新检查失败 / 下载出现问题也可以尝试手动更新。
 
 访问[Release](https://github.com/XtremeWave/FinalSuspect/releases)页面,下载最新版本的dll文件。
 

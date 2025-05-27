@@ -17,7 +17,7 @@
 ```
 C:\Program Files (x86)\Steam\steamapps\common\Among Us
 ```
-按下**Win + R**,并粘贴这串路径即可打开AmongUs目录。
+按下`Win` + `R`,并粘贴这串路径即可打开AmongUs目录。
 
 :::
 :::tip
@@ -44,7 +44,7 @@ C:\Program Files (x86)\Steam\steamapps\common\Among Us
 ```
 C:\Program Files\Epic Games\AmongUs
 ```
-按下**Win + R**,并粘贴这串路径即可打开AmongUs目录。
+按下`Win` + `R`,并粘贴这串路径即可打开AmongUs目录。
 
 :::
 :::tip
