@@ -1,4 +1,4 @@
-# 豆子形象切换
+# 豆子形象切换 {#change-outfit}
 
 在FinalSuspect中,我们为玩家提供了 **三种可切换的角色形象**,增添更多趣味性和个性化选择：  
 
@@ -9,13 +9,7 @@
 玩家可在设置菜单中自由切换模式。\
 该功能不影响游戏平衡,仅为娱乐性扩展。
 
-:::note
-
-此功能他人无法看见,仅在自己的游戏视角可见。
-
-:::
-
-## [愚人节牧马模式](https://www.innersloth.com/april-fools-%f0%9f%90%8e-horse-mode-is-here/)
+## [愚人节牧马模式](https://www.innersloth.com/april-fools-%f0%9f%90%8e-horse-mode-is-here/) {#horse-mode}
 
 :::danger 功能损坏
 
@@ -27,7 +21,7 @@
 
 > Neigh forever, Impostors. Neighhhh.
 
-## [愚人节长颈豆模式](https://www.innersloth.com/april-fools-goes-necks-gen/)
+## [愚人节长颈豆模式](https://www.innersloth.com/april-fools-goes-necks-gen/) {#neck-mode}
 
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/ZKM_VoNebjY?si=H8-8ZRazyHvWB4WL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
