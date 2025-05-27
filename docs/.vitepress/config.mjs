@@ -7,20 +7,26 @@ import {
   GitChangelogMarkdownSection, 
 } from '@nolebase/vitepress-plugin-git-changelog/vite'
 
+import { 
+  InlineLinkPreviewElementTransform 
+} from '@nolebase/vitepress-plugin-inline-link-preview/markdown-it'
+
 export default defineConfig({
   vite: {
     optimizeDeps: {
       exclude: [ 
-        '@nolebase/vitepress-plugin-enhanced-readabilities/client', 
-        'vitepress', 
-        '@nolebase/ui', 
+        '@nolebase/vitepress-plugin-enhanced-readabilities/client',
+        'vitepress',
+        '@nolebase/ui',
+        '@nolebase/vitepress-plugin-inline-link-preview/client'
       ], 
     },
     ssr: { 
       noExternal: [ 
-        '@nolebase/vitepress-plugin-highlight-targeted-heading', 
-        '@nolebase/vitepress-plugin-enhanced-readabilities', 
-        '@nolebase/ui', 
+        '@nolebase/vitepress-plugin-highlight-targeted-heading',
+        '@nolebase/vitepress-plugin-enhanced-readabilities',
+        '@nolebase/ui',
+        '@nolebase/vitepress-plugin-inline-link-preview'
       ], 
     },
     plugins: [ 
@@ -82,5 +88,10 @@ export default defineConfig({
       }
     },
     externalLinkIcon: true
-  }
+  },
+  markdown: { 
+    config(md) { 
+      md.use(InlineLinkPreviewElementTransform) 
+    }
+  } 
 })

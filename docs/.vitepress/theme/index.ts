@@ -22,6 +22,12 @@ import {
 import '@nolebase/vitepress-plugin-enhanced-readabilities/client/style.css'
 import './styles/main.css'
 
+import { 
+  NolebaseInlineLinkPreviewPlugin, 
+} from '@nolebase/vitepress-plugin-inline-link-preview/client'
+
+import '@nolebase/vitepress-plugin-inline-link-preview/client/style.css'
+
 export const Theme: ThemeConfig = {
   extends: DefaultTheme,
   Layout: () => {
@@ -41,7 +47,8 @@ export const Theme: ThemeConfig = {
       hideChangelogHeader: true,
       hideChangelogNoChangesText: true,
       displayAuthorsInsideCommitLine: true
-    }) 
+    }),
+    app.use(NolebaseInlineLinkPreviewPlugin)
   },
 }
 
