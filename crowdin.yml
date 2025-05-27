@@ -1,8 +1,21 @@
 files:
-  - source: /docs/**/*.md
-    ignore:
-      - public/
-      - .vitepress/
-    translation: /docs/%two_letters_code%/%original_file_name%
-  - source: docs/.vitepress/i18n
+  - source: /docs/.vitepress/i18n/zh.js
     translation: /docs/.vitepress/i18n/%two_letters_code%.js
+  - source: /docs/FinalSuspect/*.md
+    ignore:
+      - .vitepress/
+      - public/
+    translation: /docs/%two_letters_code%/FinalSuspect/%original_file_name%
+  - source: /docs/FinalSuspect/Features
+    ignore:
+      - index.md
+      - FAQ.md
+    translation: /docs/%two_letters_code%/FinalSuspect/Features/%original_file_name%
+  - source: /docs/FinalSuspect/Options
+    translation: /docs/%two_letters_code%/FinalSuspect/Options/%original_file_name%
+  - source: /docs/FinalSuspect/Guide
+    translation: /docs/%two_letters_code%/FinalSuspect/Guide/%original_file_name%
+  - source: /docs/.vitepress/i18n/navbar/zh.js
+    translation: /docs/.vitepress/i18n/navbar/%two_letters_code%.js
+  - source: /docs/.vitepress/i18n/sidebar/zh
+    translation: /docs/.vitepress/i18n/sidebar/%two_letters_code%/%original_file_name%
