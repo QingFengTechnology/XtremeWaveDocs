@@ -58,7 +58,7 @@ export default defineConfig({
     logo: '/XtremeWave.png',
     outline: [2, 5],
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/XtremeWave' }
+      { icon: 'github', link: 'https://github.com/XtremeWave', ariaLabel: 'XtremeWave Github' }
     ],
     footer: {
       copyright: "© 2023-2025 By <a href='https://qingfengawa.top' target='_blank'>QingFeng</a>"
