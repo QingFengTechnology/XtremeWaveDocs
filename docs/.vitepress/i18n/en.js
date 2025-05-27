@@ -1,6 +1,7 @@
 import { defineConfig } from 'vitepress';
-import { calculateSidebar } from '@nolebase/vitepress-plugin-sidebar';
-export const enLocaleConfig = defineConfig({
+import { zhNavConfig } from './navbar/zh.js';
+import { zhSidebarConfig } from './sidebar/zh/index.js';
+export const zhLocaleConfig = defineConfig({
   label: 'English',
   lang: 'en-US',
   title: 'XtremeWave Mod Docs',
@@ -8,31 +9,15 @@ export const enLocaleConfig = defineConfig({
   description: 'XtremeWave Official Documentation for Mods.',
   themeConfig: {
     siteTitle: 'XtremeDocs',
-    nav: [
-      {
-        text: 'Home',
-        link: '/en/',
-      },
-      {
-        text: 'About',
-        link: '/en/about',
-      }
-    ],
-    sidebar: calculateSidebar([
-      {
-        folderName: 'FinalSuspect',
-        separate: true,
-      },
-    ]),
+    nav: zhNavConfig,
+    sidebar: zhSidebarConfig,
     outline: {
       label: 'On this page',
     },
-    footer: {
-      message: "Cloud services provided by <a href='https://www.rainyun.com/QingFeng_?s=XtremeDocs' target='_blank'>Rainyun</a>",
-      copyright: "© 2023-2025 By <a href='https://qingfengawa.top' target='_blank'>QingFeng</a>",
-    },
     editLink: {
-      pattern: 'https://github.com/QingFengTechnology/XtremeWaveDocs/blob/v2/:path',
+      // 目前pattern在`config.mjs`中定义后,若不在语言配置中定义会导致pattern无法生效。
+      // 这似乎与VitePress所说的`浅层合并`(也许是我理解错误?)不符。
+      pattern: 'https://github.com/QingFengTechnology/XtremeWaveDocs/blob/v2/docs/:path',
       text: 'View it on GitHub',
     },
     docFooter: {
