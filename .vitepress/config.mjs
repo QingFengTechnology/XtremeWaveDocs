@@ -12,7 +12,6 @@ import {
 } from '@nolebase/vitepress-plugin-inline-link-preview/markdown-it'
 
 export default defineConfig({
-  srcDir: '/',
   srcExclude: ['Readme.md'],
   vite: {
     optimizeDeps: {
