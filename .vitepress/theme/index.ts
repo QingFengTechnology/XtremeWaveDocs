@@ -25,8 +25,9 @@ import './styles/main.css'
 import { 
   NolebaseInlineLinkPreviewPlugin, 
 } from '@nolebase/vitepress-plugin-inline-link-preview/client'
-
 import '@nolebase/vitepress-plugin-inline-link-preview/client/style.css'
+
+import 'virtual:group-icons.css'
 
 export const Theme: ThemeConfig = {
   extends: DefaultTheme,

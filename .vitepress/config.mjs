@@ -1,6 +1,8 @@
 import { defineConfig } from 'vitepress'
 import { zhLocaleConfig } from './i18n/zh.js'
 //import { enLocaleConfig } from './i18n/en.js'
+import { AnnouncementPlugin } from 'vitepress-plugin-announcement'
+import { groupIconMdPlugin, groupIconVitePlugin } from 'vitepress-plugin-group-icons'
 
 import { 
   GitChangelog, 
@@ -40,7 +42,17 @@ export default defineConfig({
           disableChangelog: false,
           disableContributors: true,
         },
-      })
+      }),
+      // https://www.npmjs.com/package/vitepress-plugin-announcement
+      // vite配置项不能在各语言配置文件使用。
+      AnnouncementPlugin({
+        mobileMinify: true,
+        title: '公告',
+        body: [
+          { type: 'text', content: '欢迎回来!文档已完成v2版本适配。' },
+        ],
+      }),
+      groupIconVitePlugin()
     ],
   }, 
   // 我们将各语言的配置选项分离,因此看起来这与常规站点配置文件有些不同。
@@ -98,7 +110,8 @@ export default defineConfig({
   },
   markdown: { 
     config(md) { 
-      md.use(InlineLinkPreviewElementTransform) 
+      md.use(InlineLinkPreviewElementTransform),
+      md.use(groupIconMdPlugin)
     }
   } 
 })
