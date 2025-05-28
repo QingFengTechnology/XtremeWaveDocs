@@ -3,12 +3,13 @@ files:
     ignore:
       - CONTRIBUTING.md
       - Readme.md
+      - dependencies.md
     translation: /%two_letters_code%/%original_path%/%original_file_name%
   - source: .vitepress/i18n/zh.js
     translation: /.vitepress/i18n/%two_letters_code%.js
     multilingual: 1
-  - source: .vitepress/i18n/sidebar/zh/*.js
-    translation: /.vitepress/i18n/sidebar/%two_letters_code%/%original_file_name%
-  - source: .vitepress/i18n/navbar/zh.js
-    translation: /.vitepress/i18n/navbar/%two_letters_code%.js
+  - source: .vitepress/i18n/
+    ignore:
+      - .vitepress/i18n/zh.js
+    translation: /.%original_path%/%two_letters_code%.js
     multilingual: 1
