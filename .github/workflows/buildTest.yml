@@ -1,4 +1,4 @@
-name: Website Build Test
+name: Website build test
 
 on:
   pull_request:
