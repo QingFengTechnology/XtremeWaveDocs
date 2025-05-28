@@ -1,3 +1,6 @@
+---
+title: 禁用反作弊
+---
 # 禁用反作弊 {#disable-fac}
 
 在FinalSuspect模组中,我们提供了禁用FAC(FinalAntiCheat)的选项。\

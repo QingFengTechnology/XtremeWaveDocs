@@ -1,3 +1,7 @@
+---
+title: 安装
+order: 1
+---
 # 安装 {#installation}
 
 此教程适用于**Windows**。

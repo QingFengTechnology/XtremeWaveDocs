@@ -1,5 +1,5 @@
 ---
-description: 该功能提供简单的日志管理方案。
+title: 输出日志
 ---
 # 输出日志 {#dump-log}
 

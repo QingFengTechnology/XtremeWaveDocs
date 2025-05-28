@@ -1,3 +1,7 @@
+---
+title: 导出日志
+order: 3
+---
 # 导出日志 {#outputlog}
 
 ## 自动导出 {#auto-output}

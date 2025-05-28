@@ -1,5 +1,6 @@
 ---
-sidebar_position: 5
+title: 疑难解答
+order: 5
 ---
 # 疑难解答 {#faq}
 

@@ -1,3 +1,6 @@
+---
+title: 踢出没有登录的玩家
+---
 # 踢出没有登录的玩家 {#kick-player-not-logged-in}
 
 在FinalSuspect模组中,我们提供了登录验证功能。\

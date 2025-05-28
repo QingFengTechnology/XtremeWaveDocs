@@ -120,6 +120,33 @@ FinalSuspect文档自定义了是因为我们在其他文档进行了内联(其�
 
 有关标题锚点的更多信息,请参阅[官方文档](https://vitepress.dev/zh/guide/markdown#header-anchors)。
 
+#### Frontmatter
+
+如果你沿用了FinalSuspect的侧边栏生成模式,那么你需要定义Frontmatter。\
+其中`order`选项将决定侧边栏的顺序(升序),且由于标题锚点(见上文)的原因我们还需要定义`title`,否则侧栏标题将按文件名生成。
+> 你可以选择不定义`order`选项,这样侧边栏将使用**文件名首字母**排序。
+
+下方示例是最小化的Frontmatter:
+
+```text
+---
+title: <string>
+order: <number>
+---
+```
+
+当然,你也可以不沿用FinalSuspect的侧边栏生成模式。\
+有关自动生成侧边栏的配置,请参阅[插件文档](https://vitepress-sidebar.cdget.com/zhHans/guide/options)。
+
+##### 为文件夹更改显示名称
+
+> [!Note]
+> 此方法仅在选项`useFolderTitleFromIndexFile`为`true`时可用。\
+> FinalSuspect设置中已包含此配置。
+
+在目标文件夹中新建一个`index.md`文件,并在其中定义Frontmatter的`title`选项即可。\
+正文可直接留空。
+
 ### 文档翻译
 
 我们使用Crowdin协作进行翻译。\

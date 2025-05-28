@@ -6,7 +6,7 @@ export const zhNavConfig = defineConfig([
   {
     text: '文档',
     items: [
-      { text: 'FinalSuspect', link: '/FinalSuspect/', activeMatch: '/FinalSuspect/' },
+      { text: 'FinalSuspect', link: '/FinalSuspect/introduction', activeMatch: '/FinalSuspect/' },
     ]
   }
 ]);

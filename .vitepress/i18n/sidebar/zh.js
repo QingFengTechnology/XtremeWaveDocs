@@ -5,9 +5,10 @@ export const zhSidebarConfig = defineConfig([
     scanStartPath: '/FinalSuspect',
     resolvePath: '/FinalSuspect/',
     basePath: '/',
-    useTitleFromFileHeading: true,
+    useTitleFromFrontmatter: true,
     useFolderTitleFromIndexFile: true,
-    sortMenusByName: true,
-    collapsed: true
+    sortMenusByFrontmatterOrder: true,
+    collapsed: true,
+    frontmatterOrderDefaultValue: 999
   }
 ])
