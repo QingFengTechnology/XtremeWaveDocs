@@ -1,6 +1,6 @@
+// 有关已安装插件的文档、仓库的更多信息,请参阅本仓库的`dependencies.md`。
 import { defineConfig } from 'vitepress'
 import { zhLocaleConfig } from './i18n/zh.js'
-//import { enLocaleConfig } from './i18n/en.js'
 import { AnnouncementPlugin } from 'vitepress-plugin-announcement'
 import { groupIconMdPlugin, groupIconVitePlugin } from 'vitepress-plugin-group-icons'
 
@@ -14,7 +14,7 @@ import {
 } from '@nolebase/vitepress-plugin-inline-link-preview/markdown-it'
 
 export default defineConfig({
-  srcExclude: ['Readme.md'],
+  srcExclude: ['Readme.md','dependencies.md','CONTRIBUTING.md'],
   vite: {
     optimizeDeps: {
       exclude: [ 
@@ -43,8 +43,8 @@ export default defineConfig({
           disableContributors: true,
         },
       }),
-      // https://www.npmjs.com/package/vitepress-plugin-announcement
-      // vite配置项不能在各语言配置文件使用。
+      // vite配置项不能在语言配置文件定义。
+      // 不过公告插件本身支持国际化,因此无伤大雅。
       AnnouncementPlugin({
         mobileMinify: true,
         title: '公告',
@@ -52,12 +52,10 @@ export default defineConfig({
           { type: 'text', content: '欢迎回来!文档已完成v2版本适配。' },
         ],
       }),
-      // https://vp.yuy1n.io
       groupIconVitePlugin()
     ],
   }, 
   // 我们将各语言的配置选项分离,因此看起来这与常规站点配置文件有些不同。
-  // 站点配置参考: https://vitepress.dev/zh/reference/site-config
   head: [['link', { rel: 'icon', type: 'image/png', href: '/XtremeWave.png' }]],
   base: '/',
   cleanUrls: true,
@@ -69,12 +67,10 @@ export default defineConfig({
   },
   lastUpdated: false,
   locales: {
-    // i18n教程: https://vitepress.dev/zh/guide/i18n
     root: zhLocaleConfig,
     //en: enLocaleConfig
   },
   themeConfig: {
-    // 主题配置参考(和站点不同哦): https://vitepress.dev/zh/reference/default-theme-config
     logo: '/XtremeWave.png',
     outline: [2, 5],
     socialLinks: [
@@ -87,7 +83,8 @@ export default defineConfig({
       provider: 'local',
       options: {
         locales: {
-          // 配置项暂时没有放在i18n文件夹中对应的文件,后续会进行优化。
+          // 配置项暂时没有放在i18n文件夹中对应的文件。
+          // 但是插件本身支持也国际化,因此还无伤大雅。
           root: {
             translations: {
               button: {

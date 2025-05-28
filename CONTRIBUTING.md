@@ -119,3 +119,13 @@ FinalSuspect文档自定义了是因为我们在其他文档进行了内联(其�
 > 因为默认锚点就是标题,而链接中的中文会被转义为编码,这就导致了链接会变得非常难看还会很长。
 
 有关标题锚点的更多信息,请参阅[官方文档](https://vitepress.dev/zh/guide/markdown#header-anchors)。
+
+### 文档翻译
+
+我们使用Crowdin协作进行翻译。\
+有关更多信息/翻译教程,请参阅[讨论: 帮助我们翻译文档](https://github.com/QingFengTechnology/XtremeWaveDocs/discussions/14)。
+
+### 文档插件
+
+为了提供更好的体验,我们引入了许多插件来增强文档的功能。\
+有关已安装插件的信息,请参阅[已安装插件列表](dependencies.md)。
