@@ -20,7 +20,6 @@ import {
   //NolebaseEnhancedReadabilitiesScreenMenu, 
 } from '@nolebase/vitepress-plugin-enhanced-readabilities/client'
 import '@nolebase/vitepress-plugin-enhanced-readabilities/client/style.css'
-import './styles/main.css'
 
 import { 
   NolebaseInlineLinkPreviewPlugin, 
@@ -28,6 +27,8 @@ import {
 import '@nolebase/vitepress-plugin-inline-link-preview/client/style.css'
 
 import 'virtual:group-icons.css'
+
+import './styles/fixSocialLinks.css'
 
 export const Theme: ThemeConfig = {
   extends: DefaultTheme,
