@@ -11,5 +11,5 @@ hero:
 features:
   - title: FinalSuspect
     details: The Ultimate Among Us Mod for the Original Experience.
-    link: FinalSuspect/
+    link: FinalSuspect/introduction
 ---
