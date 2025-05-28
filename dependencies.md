@@ -60,6 +60,15 @@
 
 ### 其他插件
 
+#### 自动生成侧边栏
+
+显而易见,这就是一个自动生成侧边栏的插件。\
+这个插件避免了我们在未来需要一个一个手动添加侧边栏的麻烦,尤其是未来面对几百个md文件的时候。
+
+- 文档: [VitePress Sidebar | 功能强大的自动侧边栏生成器](https://vitepress-sidebar.cdget.com/zhHans/)
+- Github: [jooy2/vitepress-sidebar](https://github.com/jooy2/vitepress-sidebar)
+- NPM: [vitepress-sidebar](https://www.npmjs.com/package/vitepress-sidebar)
+
 #### 公告插件
 
 一个简单的公告插件,可以在文档右上角显示公告。
