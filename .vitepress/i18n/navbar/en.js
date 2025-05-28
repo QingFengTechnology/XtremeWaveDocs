@@ -13,7 +13,7 @@ export const zhNavConfig = defineConfig([
         items: [
             {
                 text: 'FinalSuspect',
-                link: '/FinalSuspect/',
+                link: '/FinalSuspect/introduction',
                 activeMatch: '/FinalSuspect/',
             },
         ],
