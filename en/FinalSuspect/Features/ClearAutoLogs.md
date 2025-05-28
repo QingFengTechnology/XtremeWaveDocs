@@ -1,3 +1,7 @@
+---
+title: 清空自动日志
+---
+
 # 清空自动日志 {#clear-auto-logs}
 
 在模组TownOfHost中,当AmongUs关闭时会自动保存一个日志文件。\
