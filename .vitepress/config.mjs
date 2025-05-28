@@ -52,6 +52,7 @@ export default defineConfig({
           { type: 'text', content: '欢迎回来!文档已完成v2版本适配。' },
         ],
       }),
+      // https://vp.yuy1n.io
       groupIconVitePlugin()
     ],
   }, 
