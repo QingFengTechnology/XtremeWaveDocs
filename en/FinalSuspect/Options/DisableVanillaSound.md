@@ -1,3 +1,7 @@
+---
+title: 禁用原版游戏音乐
+---
+
 # 禁用原版游戏音乐 {#disable-vanilla-sound}
 
 在FinalSuspect中,我们新增了背景音乐控制功能,允许玩家屏蔽特定场景的默认音乐:
