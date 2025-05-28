@@ -1,6 +1,7 @@
 import { defineConfig } from 'vitepress';
 import { zhNavConfig } from './navbar/zh.js';
-import { zhSidebarConfig } from './sidebar/zh/index.js';
+import { zhSidebarConfig } from './sidebar/zh.js';
+import { generateSidebar } from 'vitepress-sidebar';
 export const zhLocaleConfig = defineConfig({
   label: '简体中文',
   lang: 'zh-CN',
@@ -10,7 +11,7 @@ export const zhLocaleConfig = defineConfig({
   themeConfig: {
     siteTitle: '极致文档',
     nav: zhNavConfig,
-    sidebar: zhSidebarConfig,
+    sidebar: generateSidebar(zhSidebarConfig),
     outline: {
       label: '页面导航',
     },
