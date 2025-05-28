@@ -46,11 +46,14 @@ export default defineConfig({
       // vite配置项不能在语言配置文件定义。
       // 不过公告插件本身支持国际化,因此无伤大雅。
       AnnouncementPlugin({
-        mobileMinify: true,
         title: '公告',
         body: [
           { type: 'text', content: '欢迎回来!文档已完成v2版本适配。' },
         ],
+        duration: -1,
+        mobileMinify: true,
+        twinkle: false,
+        icon: ''
       }),
       groupIconVitePlugin()
     ],
@@ -110,6 +113,9 @@ export default defineConfig({
     config(md) { 
       md.use(InlineLinkPreviewElementTransform),
       md.use(groupIconMdPlugin)
+    },
+    image: {
+      lazyLoading: true
     }
   } 
 })
