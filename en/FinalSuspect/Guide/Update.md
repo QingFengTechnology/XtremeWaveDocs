@@ -1,3 +1,8 @@
+---
+title: 更新
+order: 2
+---
+
 # 更新 {#update}
 
 ## 自动更新 {#auto-update}
