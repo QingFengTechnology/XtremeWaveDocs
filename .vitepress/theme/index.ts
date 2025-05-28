@@ -29,6 +29,7 @@ import '@nolebase/vitepress-plugin-inline-link-preview/client/style.css'
 import 'virtual:group-icons.css'
 
 import './styles/fixSocialLinks.css'
+import './styles/fixIndentsMultiLevel.css'
 
 export const Theme: ThemeConfig = {
   extends: DefaultTheme,
