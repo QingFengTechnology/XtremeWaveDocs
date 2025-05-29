@@ -3,6 +3,7 @@
 @import './indentsSidebar.css';
 @import './rainbow.css';
 @import './bProgress.css';
+@import './link.css';
 
 @import './codeBlock/codeBlock.css';
 @import './codeBlock/codeBlockTitle.css';

@@ -1,0 +1,7 @@
+/*
+  隐藏链接下划线
+  参考: https://vitepress.yiov.top/style.html#%E9%93%BE%E6%8E%A5%E4%B8%8B%E5%88%92%E7%BA%BF
+*/
+.vp-doc a {
+  text-decoration: none;
+}
