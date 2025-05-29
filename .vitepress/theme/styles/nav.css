@@ -1,0 +1,41 @@
+/*
+  导航栏添加毛玻璃效果
+  参考: https://vitepress.yiov.top/style.html#%E5%AF%BC%E8%88%AA%E6%A0%8F%E6%AF%9B%E7%8E%BB%E7%92%83
+*/
+:root {
+
+  .VPNavBar:not(.has-sidebar):not(.home.top) {
+      background-color: rgba(255, 255, 255, 0);
+      backdrop-filter: blur(10px);
+  }
+
+  .DocSearch-Button {
+      background-color: rgba(255, 255, 255, 0);
+      backdrop-filter: blur(10px);
+  }
+
+  .VPFeature {
+      border: none;
+      box-shadow: 0 10px 30px 0 rgb(0 0 0 / 15%);
+      background-color: transparent;
+  }
+
+  .curtain {
+      background-color: rgba(255, 255, 255, 0);
+      backdrop-filter: blur(10px);
+  }
+
+  @media (min-width: 960px) {
+
+      .VPNavBar:not(.home.top) .content-body {
+          background-color: rgba(255, 255, 255, 0);
+          backdrop-filter: blur(10px);
+      }
+  }
+
+  .VPLocalNav {
+      background-color: rgba(255, 255, 255, 0);
+      backdrop-filter: blur(10px);
+  }
+
+}

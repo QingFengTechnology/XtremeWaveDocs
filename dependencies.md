@@ -69,6 +69,14 @@
 - Github: [jooy2/vitepress-sidebar](https://github.com/jooy2/vitepress-sidebar)
 - NPM: [vitepress-sidebar](https://www.npmjs.com/package/vitepress-sidebar)
 
+#### iconify图标包
+
+iconify的图标包,本站点只引用了Flat Color Icon样式。
+
+- ~~文档: 不可用~~
+- ~~Github: 不可用~~
+- NPM: [@iconify-json/flat-color-icons](https://www.npmjs.com/package/@iconify-json/flat-color-icons)
+
 #### 公告插件
 
 一个简单的公告插件,可以在文档右上角显示公告。

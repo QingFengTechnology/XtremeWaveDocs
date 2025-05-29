@@ -1,3 +1,7 @@
+/* 
+  调整侧边栏缩进开始层数
+  参考: https://vitepress-sidebar.cdget.com/zhHans/advanced-usage/multi-level-sidebar-with-indents
+*/
 .group:has([role='button']) .VPSidebarItem.level-0 .items {
   padding-left: 16px !important;
   border-left: 1px solid var(--vp-c-divider);

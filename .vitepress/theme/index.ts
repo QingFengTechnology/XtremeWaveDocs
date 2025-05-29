@@ -28,8 +28,7 @@ import '@nolebase/vitepress-plugin-inline-link-preview/client/style.css'
 
 import 'virtual:group-icons.css'
 
-import './styles/fixSocialLinks.css'
-import './styles/fixIndentsMultiLevel.css'
+import './styles/index.css'
 
 export const Theme: ThemeConfig = {
   extends: DefaultTheme,
@@ -52,7 +51,7 @@ export const Theme: ThemeConfig = {
       displayAuthorsInsideCommitLine: true
     }),
     app.use(NolebaseInlineLinkPreviewPlugin)
-  },
+  }
 }
 
 export default Theme

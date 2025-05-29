@@ -1,0 +1,7 @@
+/* 
+  修正社交链接偏移的问题
+  参考: https://nolebase-integrations.ayaka.io/pages/zh-CN/integrations/vitepress-plugin-enhanced-readabilities/#%E6%B7%BB%E5%8A%A0-vitepress-%E4%B8%BB%E9%A2%98%E7%9B%B8%E5%85%B3%E7%9A%84%E9%85%8D%E7%BD%AE
+*/
+.VPSocialLinks.VPNavBarSocialLinks.social-links {
+  margin-right: 0;
+}
