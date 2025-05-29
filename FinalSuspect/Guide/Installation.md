@@ -4,7 +4,7 @@ order: 1
 ---
 # 安装 {#installation}
 
-此教程适用于**Windows**。
+此教程适用于<mark>Windows</mark>。
 
 ## 下载 {#download}
 
@@ -18,7 +18,7 @@ order: 1
 
 如果您在安装原版AmongUs时选择的是C盘,那么其默认路径可能是下方位置:
 
-```
+``` [文件资源管理器]
 C:\Program Files (x86)\Steam\steamapps\common\Among Us
 ```
 按下`Win` + `R`,并粘贴这串路径即可打开AmongUs目录。
@@ -45,7 +45,7 @@ C:\Program Files (x86)\Steam\steamapps\common\Among Us
 
 如果您在安装原版AmongUs时选择的是C盘,那么其默认路径可能是下方位置:
 
-```
+``` [文件资源管理器]
 C:\Program Files\Epic Games\AmongUs
 ```
 按下`Win` + `R`,并粘贴这串路径即可打开AmongUs目录。
@@ -67,8 +67,8 @@ C:\Program Files\Epic Games\AmongUs
 
 :::danger Epic不支持非官方目录
 
-这意味着你只能将模组**安装在官方目录下**,且**无法同时安装多个模组**。\
-如果您使用Epic版的AmongUs且安装在了非官方目录,AmongUs将提示**校验失败**。\
-您将**无法进入游戏**。
+这意味着你只能将模组<mark>安装在官方目录下</mark>,且<mark>无法同时安装多个模组</mark>。\
+如果您使用Epic版的AmongUs且安装在了非官方目录,AmongUs将提示<mark>校验失败</mark>。\
+您将<mark>无法进入游戏</mark>。
 
 :::

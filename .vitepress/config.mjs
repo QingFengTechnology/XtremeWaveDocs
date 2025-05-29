@@ -2,7 +2,7 @@
 import { defineConfig } from 'vitepress'
 import { zhLocaleConfig } from './i18n/zh.js'
 import { AnnouncementPlugin } from 'vitepress-plugin-announcement'
-import { groupIconMdPlugin, groupIconVitePlugin } from 'vitepress-plugin-group-icons'
+import { groupIconMdPlugin, groupIconVitePlugin, localIconLoader } from 'vitepress-plugin-group-icons'
 
 import { 
   GitChangelog, 
@@ -55,7 +55,12 @@ export default defineConfig({
         twinkle: false,
         icon: '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48"><g fill="none" stroke="#fff" stroke-linejoin="round" stroke-width="4"><rect width="40" height="26" x="4" y="15" rx="2"/><path stroke-linecap="round" d="m24 7l-8 8h16zM12 24h18m-18 8h8"/></g></svg>'
       }),
-      groupIconVitePlugin()
+      groupIconVitePlugin({
+        customIcon: {
+          '文件资源管理器': 'flat-color-icons:folder',
+          'explorer': 'flat-color-icons:folder'
+        },
+      })
     ],
   }, 
   // 我们将各语言的配置选项分离,因此看起来这与常规站点配置文件有些不同。
@@ -111,7 +116,9 @@ export default defineConfig({
   markdown: { 
     config(md) { 
       md.use(InlineLinkPreviewElementTransform),
-      md.use(groupIconMdPlugin)
+      md.use(groupIconMdPlugin,{
+        titleBar: { includeSnippet: true }
+      })
     },
     image: {
       lazyLoading: true
