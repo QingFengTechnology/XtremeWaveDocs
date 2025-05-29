@@ -8,7 +8,7 @@ export const zhSidebarConfig = defineConfig([
     useTitleFromFrontmatter: true,
     useFolderTitleFromIndexFile: true,
     sortMenusByFrontmatterOrder: true,
-    collapsed: true,
+    collapsed: false,
     frontmatterOrderDefaultValue: 999
   }
 ])
