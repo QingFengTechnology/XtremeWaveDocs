@@ -17,21 +17,21 @@ jobs:
         id: auth
         run: |
           timestamp=$(date +%s)
-          echo "TIMESTAMP=$timestamp" >> $GITHUB_ENV
           token=$(echo -n "1panel${{ env.PANEL_API_KEY }}${timestamp}" | md5sum | awk '{print $1}')
-          echo "PANEL_TOKEN=$token" >> $GITHUB_ENV
+          echo "::add-mask::$token"
+          echo "PANEL_TOKEN=${token}" >> $GITHUB_ENV
+          echo "TIMESTAMP=${timestamp}" >> $GITHUB_ENV
 
-      - name: Call API
+      - name: Call API (Secure Mode)
         run: |
           api_url="${{ env.API_BASE_URL }}/api/v1/cronjobs/handle"
-          
           response=$(curl -s -X 'POST' \
             "$api_url" \
             -H 'accept: application/json' \
             -H 'Content-Type: application/json' \
             -H "1Panel-Token: ${{ env.PANEL_TOKEN }}" \
             -H "1Panel-Timestamp: ${{ env.TIMESTAMP }}" \
-            -d '{"id": ${{ env.CRONJOB_ID }}}')
-
-          echo "API Response: $(echo "$response" | jq -c)"
-          echo "$response" | jq -e '.code == 200' || exit 1
+            -d '{"id": ${{ env.CRONJOB_ID }}}' 2>&1)
+          code=$(echo "$response" | jq -r '.code')
+          echo "API Response Code: $code"
+          [ "$code" = "200" ] || exit 1
