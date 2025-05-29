@@ -7,6 +7,7 @@ on:
 env:
   PANEL_API_KEY: ${{ secrets.PANEL_API_KEY }}
   API_BASE_URL: ${{ secrets.API_BASE_URL }}
+  CRONJOB_ID: ${{ vars.CRONJOB_ID }}
 
 jobs:
   call-api:
@@ -30,7 +31,7 @@ jobs:
             -H 'Content-Type: application/json' \
             -H "1Panel-Token: ${{ env.PANEL_TOKEN }}" \
             -H "1Panel-Timestamp: ${{ env.TIMESTAMP }}" \
-            -d '{"id": 10}')
+            -d '{"id": ${{ env.CRONJOB_ID }}}')
 
           echo "API Response: $(echo "$response" | jq -c)"
           echo "$response" | jq -e '.code == 200' || exit 1
