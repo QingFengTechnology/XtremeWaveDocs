@@ -7,7 +7,7 @@ order: 2
 
 ## 自动更新 {#auto-update}
 
-FinalSuspect已于游戏内**内置更新检查**,每次启动将自动检查更新。\
+FinalSuspect已于游戏内<mark>内置更新检查</mark>,每次启动将自动检查更新。\
 在有更新时会要求您更新,否则您无法继续游玩。
 
 :::tip
