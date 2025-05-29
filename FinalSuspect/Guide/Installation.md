@@ -18,7 +18,7 @@ order: 1
 
 如果您在安装原版AmongUs时选择的是C盘,那么其默认路径可能是下方位置:
 
-```
+``` [文件资源管理器]
 C:\Program Files (x86)\Steam\steamapps\common\Among Us
 ```
 按下`Win` + `R`,并粘贴这串路径即可打开AmongUs目录。
@@ -45,7 +45,7 @@ C:\Program Files (x86)\Steam\steamapps\common\Among Us
 
 如果您在安装原版AmongUs时选择的是C盘,那么其默认路径可能是下方位置:
 
-```
+``` [文件资源管理器]
 C:\Program Files\Epic Games\AmongUs
 ```
 按下`Win` + `R`,并粘贴这串路径即可打开AmongUs目录。

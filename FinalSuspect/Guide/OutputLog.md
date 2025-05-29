@@ -14,7 +14,7 @@ order: 3
 
 FinalSuspect的输出目录位于下方路径:
 
-```
+``` [文件资源管理器]
 %APPDATA%\..\LocalLow\Innersloth\Among Us\FinalSuspect\Logs\Final Suspect-logs
 ```
 您可以按下`Win` + `R`,并粘贴这串路径来手动打开。

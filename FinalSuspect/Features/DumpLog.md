@@ -13,7 +13,7 @@ title: 输出日志
 
 日志文件夹位于下方路径:
 
-```
+``` [文件资源管理器]
  %APPDATA%\..\LocalLow\Innersloth\Among Us\FinalSuspect\Logs\Final Suspect-logs
 ```
 
