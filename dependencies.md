@@ -69,6 +69,15 @@
 - Github: [jooy2/vitepress-sidebar](https://github.com/jooy2/vitepress-sidebar)
 - NPM: [vitepress-sidebar](https://www.npmjs.com/package/vitepress-sidebar)
 
+#### 加载进度条
+
+使用BProgress开源项目实现的一个加载进度条。
+> 无意间发现了这好像还是1Panel同款的加载进度条(((
+
+- 文档: [BProgress - Lightweight progress bar](https://bprogress.vercel.app)
+- Github: [imskyleen/bprogress](https://github.com/imskyleen/bprogress)
+- NPM: [@bprogress/core](https://www.npmjs.com/package/@bprogress/core)
+
 #### iconify图标包
 
 iconify的图标包,本站点只引用了Flat Color Icon样式。

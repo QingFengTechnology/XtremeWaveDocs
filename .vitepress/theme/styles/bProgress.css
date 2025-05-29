@@ -1,0 +1,9 @@
+/*
+  自定义加载进度条样式
+  参考: https://bprogress.vercel.app/docs/style
+*/
+@import '@bprogress/core/css';
+
+:root {
+  --bprogress-color: #A8B1FF;
+}

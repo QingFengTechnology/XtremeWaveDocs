@@ -26,6 +26,9 @@ import {
 } from '@nolebase/vitepress-plugin-inline-link-preview/client'
 import '@nolebase/vitepress-plugin-inline-link-preview/client/style.css'
 
+import { BProgress } from '@bprogress/core';
+import { inBrowser } from 'vitepress'
+
 import 'virtual:group-icons.css'
 
 import './styles/index.css'
@@ -43,7 +46,16 @@ export const Theme: ThemeConfig = {
       ],
     })
   },
-  enhanceApp({ app }) {
+  enhanceApp({ app, router }) {
+    if (inBrowser) {
+      BProgress.configure({ showSpinner: false })
+      router.onBeforeRouteChange = () => {
+        BProgress.start()
+      }
+      router.onAfterRouteChange = () => {
+        BProgress.done()
+      }
+    }
     app.use(NolebaseGitChangelogPlugin, { 
       commitsRelativeTime: true,
       hideChangelogHeader: true,
