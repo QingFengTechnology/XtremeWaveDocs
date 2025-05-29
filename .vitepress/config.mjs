@@ -103,7 +103,8 @@ export default defineConfig({
                 resetButtonTitle: '清除查询条件',
                 footer: {
                   selectText: '选择',
-                  navigateText: '切换'
+                  navigateText: '切换',
+                  closeText: '退出'
                 }
               }
             }
