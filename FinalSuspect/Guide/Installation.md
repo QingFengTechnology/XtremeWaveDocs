@@ -8,7 +8,18 @@ order: 1
 
 ## 下载 {#download}
 
-访问[Release](https://github.com/XtremeWave/FinalSuspect/releases)页面,下载最新版本的安装包。
+访问Release页面,下载最新版本的安装包。
+
+<Links
+  :items="[
+    {
+      name: '在GitHub上获取发行版',
+      link: 'https://github.com/XtremeWave/FinalSuspect/release',
+      icon: 'codicon:github-inverted',
+      alt: 'Github'
+    }
+  ]"
+/>
 
 ## 安装(Steam) {#steam-installation}
 
