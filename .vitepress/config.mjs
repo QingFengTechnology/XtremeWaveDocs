@@ -69,7 +69,7 @@ export default defineConfig({
   base: '/',
   cleanUrls: true,
   editLink: {
-    pattern: 'https://github.com/QingFengTechnology/XtremeWaveDocs/blob/v2/docs/:path',
+    pattern: 'https://github.com/QingFengTechnology/XtremeWaveDocs/blob/v2/:path',
     // 若对应语言配置未定义text,那么就会使用此处的设置。
     // 虽然但是,Crowin上进行翻译是基于简中的,如果Crowdin那里没人翻译其实是用简中的(((
     text: 'View this page on Github'
