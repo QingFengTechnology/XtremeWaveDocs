@@ -17,7 +17,8 @@ export default defineConfig({
   srcExclude: ['Readme.md','dependencies.md','CONTRIBUTING.md'],
   vite: {
     optimizeDeps: {
-      exclude: [ 
+      include: [ '@waline/client/component' ],
+      exclude: [
         '@nolebase/vitepress-plugin-enhanced-readabilities/client',
         'vitepress',
         '@nolebase/ui',

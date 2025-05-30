@@ -20,8 +20,7 @@ import '@nolebase/vitepress-plugin-inline-link-preview/client/style.css'
 
 import { BProgress } from '@bprogress/core';
 
-import { DocBox, DocBoxCube, DocLinks, DocPill } from '@theojs/lumen'
-import { ShareButton } from '@theojs/lumen'
+import { DocBox, DocBoxCube, DocLinks, DocPill, ShareButton } from '@theojs/lumen'
 
 import 'virtual:group-icons.css'
 import './styles/index.css'
@@ -34,7 +33,7 @@ export const Theme: ThemeConfig = {
       'layout-top': () => [ h(NolebaseHighlightTargetedHeading) ],
       'aside-outline-before': () =>
         h(ShareButton, {
-          buttonIcon: 'fa6-solid:share-nodes',
+          buttonIcon: 'solar:copy-bold',
           buttonText: '复制本页链接',
           copiedIcon: 'codicon:pass-filled',
           copiedText: '链接已复制'
