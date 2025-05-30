@@ -26,6 +26,12 @@ export const zhLocaleConfig = defineConfig({
       prev: false,
       next: false
     },
+    notFound: {
+      title: '页面未找到',
+      quote: '但如果你不改变方向，并且继续寻找，你可能最终会到达你所前往的地方。',
+      linkLabel: '前往首页',
+      linkText: '前往首页'
+    },
     darkModeSwitchLabel: "颜色模式",
     lightModeSwitchTitle: "点击以切换至浅色模式",
     darkModeSwitchTitle: "点击以切换至深色模式",
