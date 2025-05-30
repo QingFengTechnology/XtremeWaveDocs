@@ -2,7 +2,7 @@
 import { defineConfig } from 'vitepress'
 import { zhLocaleConfig } from './i18n/zh.js'
 import { AnnouncementPlugin } from 'vitepress-plugin-announcement'
-import { groupIconMdPlugin, groupIconVitePlugin, localIconLoader } from 'vitepress-plugin-group-icons'
+import { groupIconMdPlugin, groupIconVitePlugin } from 'vitepress-plugin-group-icons'
 
 import { 
   GitChangelog, 
@@ -23,7 +23,7 @@ export default defineConfig({
         'vitepress',
         '@nolebase/ui',
         '@nolebase/vitepress-plugin-inline-link-preview/client'
-      ], 
+      ],
     },
     ssr: { 
       noExternal: [ 
