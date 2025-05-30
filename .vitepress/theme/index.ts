@@ -2,35 +2,28 @@
 import { h } from 'vue'
 import DefaultTheme from 'vitepress/theme'
 import type { Theme as ThemeConfig } from 'vitepress'
+import { inBrowser } from 'vitepress'
 
-import {
-  NolebaseHighlightTargetedHeading,
-} from '@nolebase/vitepress-plugin-highlight-targeted-heading/client'
+import { NolebaseHighlightTargetedHeading } from '@nolebase/vitepress-plugin-highlight-targeted-heading/client'
 import '@nolebase/vitepress-plugin-highlight-targeted-heading/client/style.css'
 
 import '@nolebase/vitepress-plugin-enhanced-mark/client/style.css'
 
-import { 
-  NolebaseGitChangelogPlugin 
-} from '@nolebase/vitepress-plugin-git-changelog/client'
+import { NolebaseGitChangelogPlugin } from '@nolebase/vitepress-plugin-git-changelog/client'
 import '@nolebase/vitepress-plugin-git-changelog/client/style.css'
 
-import { 
-  NolebaseEnhancedReadabilitiesMenu, 
-  //NolebaseEnhancedReadabilitiesScreenMenu, 
-} from '@nolebase/vitepress-plugin-enhanced-readabilities/client'
+import { NolebaseEnhancedReadabilitiesMenu } from '@nolebase/vitepress-plugin-enhanced-readabilities/client'
 import '@nolebase/vitepress-plugin-enhanced-readabilities/client/style.css'
 
-import { 
-  NolebaseInlineLinkPreviewPlugin, 
-} from '@nolebase/vitepress-plugin-inline-link-preview/client'
+import { NolebaseInlineLinkPreviewPlugin } from '@nolebase/vitepress-plugin-inline-link-preview/client'
 import '@nolebase/vitepress-plugin-inline-link-preview/client/style.css'
 
 import { BProgress } from '@bprogress/core';
-import { inBrowser } from 'vitepress'
+
+import { DocBox, DocBoxCube, DocLinks, DocPill } from '@theojs/lumen'
+import { ShareButton } from '@theojs/lumen'
 
 import 'virtual:group-icons.css'
-
 import './styles/index.css'
 
 export const Theme: ThemeConfig = {
@@ -38,12 +31,14 @@ export const Theme: ThemeConfig = {
   Layout: () => {
     return h(DefaultTheme.Layout, null, {
       'nav-bar-content-after': () => h(NolebaseEnhancedReadabilitiesMenu), 
-      // 为较窄的屏幕（通常是小于 iPad Mini）添加阅读增强菜单
-      // 备注: 手机端一般用不上这种功能,注释即可。
-      //'nav-screen-content-after': () => h(NolebaseEnhancedReadabilitiesScreenMenu), 
-      'layout-top': () => [
-        h(NolebaseHighlightTargetedHeading),
-      ],
+      'layout-top': () => [ h(NolebaseHighlightTargetedHeading) ],
+      'aside-outline-before': () =>
+        h(ShareButton, {
+          buttonIcon: 'fa6-solid:share-nodes',
+          buttonText: '复制本页链接',
+          copiedIcon: 'codicon:pass-filled',
+          copiedText: '链接已复制'
+        })
     })
   },
   enhanceApp({ app, router }) {
@@ -63,6 +58,10 @@ export const Theme: ThemeConfig = {
       displayAuthorsInsideCommitLine: true
     }),
     app.use(NolebaseInlineLinkPreviewPlugin)
+    app.component('Box', DocBox) 
+    app.component('Pill', DocPill) 
+    app.component('Links', DocLinks) 
+    app.component('BoxCube', DocBoxCube) 
   }
 }
 

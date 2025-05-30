@@ -58,6 +58,18 @@
 - GitHub: [nolebase/integrations](https://github.com/nolebase/integrations)
 - NPM: [@nolebase/vitepress-plugin-inline-link-preview](https://www.npmjs.com/package/@nolebase/vitepress-plugin-inline-link-preview)
 
+### Lumen集成
+
+> [!Note]
+> Lumen是一个包包含了大量功能,与Nólëbase集成不一样,不管你用不用那个功能他都在的。\
+> 因此我就不在这里详细列出用到的功能了。
+
+一个专为 VitePress 打造的主题美化与 Vue 扩展组件库,提供了许多功能。
+
+- 文档: [Lumen](https://lumen.theojs.cn/)
+- Github: [Theo-Messi/lumen](https://github.com/Theo-Messi/lumen)
+- NPM: [@theojs/lumen](https://www.npmjs.com/package/@theojs/lumen)
+
 ### 其他插件
 
 #### 自动生成侧边栏
