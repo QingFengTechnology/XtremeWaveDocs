@@ -149,6 +149,8 @@ order: <number>
 
 ### 文档翻译
 
+[![Crowdin](https://badges.crowdin.net/xtremedocs/localized.svg)](https://crowdin.com/project/xtremedocs)
+
 我们使用Crowdin协作进行翻译。\
 有关更多信息/翻译教程,请参阅[讨论: 帮助我们翻译文档](https://github.com/QingFengTechnology/XtremeWaveDocs/discussions/14)。
 
