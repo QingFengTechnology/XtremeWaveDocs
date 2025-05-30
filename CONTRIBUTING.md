@@ -151,10 +151,23 @@ order: <number>
 
 [![Crowdin](https://badges.crowdin.net/xtremedocs/localized.svg)](https://crowdin.com/project/xtremedocs)
 
-我们使用Crowdin协作进行翻译。\
+我们使用Crowdin进行协作翻译。\
 有关更多信息/翻译教程,请参阅[讨论: 帮助我们翻译文档](https://github.com/QingFengTechnology/XtremeWaveDocs/discussions/14)。
 
-### 文档插件
+### 杂项内容
+
+#### 文档插件
 
 为了提供更好的体验,我们引入了许多插件来增强文档的功能。\
 有关已安装插件的信息,请参阅[已安装插件列表](dependencies.md)。
+
+#### 关于IDE项目设置文件夹
+
+在之前,我通常会将IDE的文件夹添加到`.gitignore`中,这是为了保存仓库整洁。\
+但在我看到[这个讨论帖](https://github.com/vuejs/vitepress/discussions/4466)之后,我的想法改变了。
+
+因此,您现在可以在Pr中包含IDE的文件夹,在我们评估后再决定是否删除。
+
+> [!Warning]
+> 这不意味着你可以往里面塞各种IDE的设置。\
+> 我不希望我的项目里有一大堆IDE文件夹。

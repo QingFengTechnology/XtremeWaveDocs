@@ -1,0 +1,5 @@
+{
+  "markdown.suggest.paths.enabled": false,
+  "markdown.extension.completion.enabled": true,
+  "markdown.extension.completion.root": "/public"
+}
