@@ -27,7 +27,18 @@ Release不会要求您更新到Canary版本,而Canary则不会进行更新检查
 
 若遇上更新检查失败 / 下载出现问题也可以尝试手动更新。
 
-访问[Release](https://github.com/XtremeWave/FinalSuspect/releases)页面,下载最新版本的dll文件。
+访问Release页面,下载最新版本的dll文件。
+
+<Links
+:items="[
+ {
+   name: '在GitHub上获取发行版',
+   link: 'https://github.com/XtremeWave/FinalSuspect/release',
+   icon: 'codicon:github-inverted',
+   alt: 'Github'
+ }
+]"
+/>
 
 打开AmongUs根目录,再继续打开`BepInEx\plugins`文件夹。\
 将下载的dll文件替换掉原有的dll文件。
