@@ -7,7 +7,7 @@ order: 1
 
 此教程适用于<mark>Windows</mark>。
 
-## 下载 {#download}
+## Download {#download}
 
 访问Release页面,下载最新版本的安装包。
 
