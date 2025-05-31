@@ -1,4 +1,4 @@
 ---
-title: 功能
+title: Features
 order: 3
 ---
