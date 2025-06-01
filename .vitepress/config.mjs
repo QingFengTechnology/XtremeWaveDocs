@@ -1,6 +1,7 @@
 // 有关已安装插件的文档、仓库的更多信息,请参阅本仓库的`dependencies.md`。
 import { defineConfig } from 'vitepress'
 import { zhLocaleConfig } from './i18n/zh.js'
+import { twLocaleConfig } from './i18n/tw.js'
 import { AnnouncementPlugin } from 'vitepress-plugin-announcement'
 import { groupIconMdPlugin, groupIconVitePlugin } from 'vitepress-plugin-group-icons'
 
@@ -77,6 +78,7 @@ export default defineConfig({
   lastUpdated: false,
   locales: {
     root: zhLocaleConfig,
+    tw: twLocaleConfig
   },
   themeConfig: {
     logo: '/XtremeWave.png',
