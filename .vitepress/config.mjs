@@ -1,9 +1,12 @@
 // 有关已安装插件的文档、仓库的更多信息,请参阅本仓库的`dependencies.md`。
 import { defineConfig } from 'vitepress'
-import { zhLocaleConfig } from './i18n/zh.js'
-import { twLocaleConfig } from './i18n/tw.js'
 import { AnnouncementPlugin } from 'vitepress-plugin-announcement'
 import { groupIconMdPlugin, groupIconVitePlugin } from 'vitepress-plugin-group-icons'
+// i18n配置文件
+import { zhLocaleConfig } from './i18n/zh.js'
+import { twLocaleConfig } from './i18n/tw.js'
+import { zhSearchConfig } from './i18n/search/zh.js'
+import { zhAnnouncement } from './i18n/plugins/Announcement/zh.js'
 
 import { 
   GitChangelog, 
@@ -45,22 +48,10 @@ export default defineConfig({
           disableContributors: true,
         },
       }),
-      // vite配置项不能在语言配置文件定义。
-      // 不过公告插件本身支持国际化,因此无伤大雅。
-      AnnouncementPlugin({
-        title: '公告',
-        body: [
-          { type: 'text', content: '欢迎回来！<br>文档已完成v2版本适配。' },
-        ],
-        duration: -1,
-        mobileMinify: true,
-        twinkle: false,
-        icon: '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48"><g fill="none" stroke="#fff" stroke-linejoin="round" stroke-width="4"><rect width="40" height="26" x="4" y="15" rx="2"/><path stroke-linecap="round" d="m24 7l-8 8h16zM12 24h18m-18 8h8"/></g></svg>'
-      }),
+      AnnouncementPlugin( zhAnnouncement ),
       groupIconVitePlugin({
         customIcon: {
           '文件资源管理器': 'flat-color-icons:folder',
-          'explorer': 'flat-color-icons:folder'
         },
       })
     ],
@@ -95,23 +86,7 @@ export default defineConfig({
         locales: {
           // 配置项暂时没有放在i18n文件夹中对应的文件。
           // 但是插件本身支持也国际化,因此还无伤大雅。
-          root: {
-            translations: {
-              button: {
-                buttonText: '搜索文档',
-                buttonAriaLabel: '搜索文档'
-              },
-              modal: {
-                noResultsText: '无法找到相关结果',
-                resetButtonTitle: '清除查询条件',
-                footer: {
-                  selectText: '选择',
-                  navigateText: '切换',
-                  closeText: '退出'
-                }
-              }
-            }
-          }
+          root: zhSearchConfig
         }
       }
     },
