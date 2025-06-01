@@ -26,12 +26,13 @@ order: 5
 
 ### 错误代码: ErrFriendCodeFail {#ErrFriendCodeFail}
 
-:::warning
+从<mark>服务器获取好友代码失败</mark>。
 
-样本较少,可能解决方案不通用。
+请<mark>重启AmongUs</mark>以重试登录。
 
-:::
+### 错误代码：NoConnectionError {#NoConnectionError}
 
+网络问题。\
 请<mark>重启AmongUs</mark>以重试登录。
 
 ### 无错误代码提示,但提示`登录需要一点时间` {#login-need-sometimes}
