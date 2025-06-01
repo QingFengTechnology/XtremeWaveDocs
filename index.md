@@ -13,6 +13,10 @@ hero:
 features:
   - title: FinalSuspect 
     details: The Ultimate Among Us Mod for the Original Experience.
-    link: FinalSuspect/Introduction
+    link: /FinalSuspect/Introduction
+    linkText: 了解更多
+  - title: TheOtherRolesEdited
+    details: A mod forked from TheOtherRoles.
+    link: /TheOtherRolesEdited/Introduction
     linkText: 了解更多
 ---
