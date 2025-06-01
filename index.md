@@ -17,6 +17,6 @@ features:
     linkText: 了解更多
   - title: TheOtherRolesEdited
     details: A mod forked from TheOtherRoles.
-    link: /TheOtherRolesEdited/Introduction
+    link: /TheOtherRolesEdited/About
     linkText: 了解更多
 ---
