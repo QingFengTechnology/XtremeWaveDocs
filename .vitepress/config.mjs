@@ -45,7 +45,7 @@ export default defineConfig({
         exclude: (id) => id.endsWith('index.md'),
         sections: {
           disableChangelog: false,
-          disableContributors: true,
+          disableContributors: false,
         },
       }),
       AnnouncementPlugin( zhAnnouncement ),
