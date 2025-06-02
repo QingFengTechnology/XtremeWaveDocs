@@ -2,23 +2,24 @@
 title: 安装
 order: 1
 ---
+
 # 安装 {#installation}
 
 此教程适用于<mark>Windows</mark>。
 
-## 下载 {#download}
+## Download {#download}
 
 访问Release页面,下载最新版本的安装包。
 
 <Links
-  :items="[
-    {
-      name: '在GitHub上获取发行版',
-      link: 'https://github.com/XtremeWave/FinalSuspect/release',
-      icon: 'codicon:github-inverted',
-      alt: 'Github'
-    }
-  ]"
+:items="[
+ {
+   name: '在GitHub上获取发行版',
+   link: 'https://github.com/XtremeWave/FinalSuspect/release',
+   icon: 'codicon:github-inverted',
+   alt: 'Github'
+ }
+]"
 />
 
 ## 安装(Steam) {#steam-installation}
@@ -29,7 +30,7 @@ order: 1
 
 如果您在安装原版AmongUs时选择的是C盘,那么其默认路径可能是下方位置:
 
-``` [文件资源管理器]
+```[文件资源管理器]
 C:\Program Files (x86)\Steam\steamapps\common\Among Us
 ```
 
@@ -40,7 +41,6 @@ C:\Program Files (x86)\Steam\steamapps\common\Among Us
 
 您也可以通过Steam来自动打开AmongUs根目录。
 ![使用Steam打开AmongUs根目录](https://api.xtreme.net.cn/Docs/FinalSuspect/Guide/OpenAmongUsWithSteam.png)
-
 :::
 
 将Finalsuspect解压至AmongUs根目录。\
@@ -58,9 +58,10 @@ C:\Program Files (x86)\Steam\steamapps\common\Among Us
 
 如果您在安装原版AmongUs时选择的是C盘,那么其默认路径可能是下方位置:
 
-``` [文件资源管理器]
+```[文件资源管理器]
 C:\Program Files\Epic Games\AmongUs
 ```
+
 按下`Win` + `R`,并粘贴这串路径即可打开AmongUs目录。
 
 :::

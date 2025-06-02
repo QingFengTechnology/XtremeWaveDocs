@@ -4,11 +4,15 @@ files:
       - CONTRIBUTING.md
       - Readme.md
       - dependencies.md
+      - /en
+      - /ja
+      - /ko
+      - /tw
     translation: /%two_letters_code%/%original_path%/%original_file_name%
   - source: .vitepress/i18n/zh.js
     translation: /.vitepress/i18n/%two_letters_code%.js
     multilingual: 1
-  - source: .vitepress/i18n/
+  - source: .vitepress/i18n/**/zh.js
     ignore:
       - .vitepress/i18n/zh.js
     translation: /.%original_path%/%two_letters_code%.js
