@@ -40,6 +40,18 @@ export default defineConfig({
     plugins: [ 
       GitChangelog({ 
         repoURL: () => 'https://github.com/QingFengTechnology/XtremeWaveDocs', 
+        mapAuthors: [ 
+          {
+            name: 'QingFeng',
+            username: 'QingFeng-awa',
+            mapByEmailAliases: ['qingfeng_awa@163.com']
+          },
+          {
+            name: 'Lezai',
+            username: 'NewLezaiYa',
+            mapByEmailAliases: ['3651440375@qq.com']
+          }
+        ]
       }), 
       GitChangelogMarkdownSection({
         exclude: (id) => id.endsWith('index.md'),
