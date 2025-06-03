@@ -32,6 +32,7 @@ order: 1
 ``` [文件资源管理器]
 C:\Program Files (x86)\Steam\steamapps\common\Among Us
 ```
+
 按下`Win` + `R`,并粘贴这串路径即可打开AmongUs目录。
 
 :::
@@ -39,6 +40,7 @@ C:\Program Files (x86)\Steam\steamapps\common\Among Us
 
 您也可以通过Steam来自动打开AmongUs根目录。
 ![使用Steam打开AmongUs根目录](https://api.xtreme.net.cn/Docs/FinalSuspect/Guide/OpenAmongUsWithSteam.png)
+
 :::
 
 将Finalsuspect解压至AmongUs根目录。\
