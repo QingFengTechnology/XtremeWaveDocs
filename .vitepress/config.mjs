@@ -2,6 +2,7 @@
 import { defineConfig } from 'vitepress'
 import { AnnouncementPlugin } from 'vitepress-plugin-announcement'
 import { groupIconMdPlugin, groupIconVitePlugin } from 'vitepress-plugin-group-icons'
+import { mapAuthorsList } from './i18n/plugins/mapAuthors.js'
 // i18n配置文件
 import { zhLocaleConfig } from './i18n/zh.js'
 import { twLocaleConfig } from './i18n/tw.js'
@@ -40,6 +41,7 @@ export default defineConfig({
     plugins: [ 
       GitChangelog({ 
         repoURL: () => 'https://github.com/QingFengTechnology/XtremeWaveDocs', 
+        mapAuthors: mapAuthorsList
       }), 
       GitChangelogMarkdownSection({
         exclude: (id) => id.endsWith('index.md'),
