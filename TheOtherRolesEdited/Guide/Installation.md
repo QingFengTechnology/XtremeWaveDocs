@@ -42,7 +42,7 @@ C:\Program Files (x86)\Steam\steamapps\common\Among Us
 
 :::
 
-将Finalsuspect解压至AmongUs根目录。\
+将TheOtherRolesEdited解压至AmongUs根目录。\
 解压完成后,AmongUs根目录应该是这样的:
 
 ![解压后的AmongUs根目录](https://api.xtreme.net.cn/Docs/TheOtherRolesEdited/Guide/UnzipFiles.png)
