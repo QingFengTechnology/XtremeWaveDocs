@@ -4,7 +4,7 @@ export const zhAnnouncement = defineConfig({
   body: [
     {
       type: 'text',
-      content: '文档现已支持繁体中文！',
+      content: '文檔現已支援繁體中文！',
     },
   ],
   duration: -1,
