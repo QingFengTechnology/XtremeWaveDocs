@@ -98,6 +98,14 @@ iconify的图标包,本站点只引用了Flat Color Icon样式。
 - ~~Github: 不可用~~
 - NPM: [@iconify-json/flat-color-icons](https://www.npmjs.com/package/@iconify-json/flat-color-icons)
 
+#### 注脚
+
+markdown-it的插件,可以在文档中添加注脚。
+
+- ~~文档: 不可用~~
+- Github: [markdown-it/markdown-it-footnote](https://github.com/markdown-it/markdown-it-footnote)
+- NPM: [markdown-it-footnote](https://www.npmjs.com/package/markdown-it-footnote)
+
 #### 公告插件
 
 一个简单的公告插件,可以在文档右上角显示公告。

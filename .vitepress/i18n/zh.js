@@ -14,6 +14,7 @@ export const zhLocaleConfig = defineConfig({
     nav: zhNavConfig,
     sidebar: generateSidebar( zhSidebarConfig ),
     outline: {
+      level: [ 2,4 ],
       label: "页面导航"
     },
     editLink: {
