@@ -7,7 +7,10 @@ import { mapAuthorsList } from './i18n/plugins/mapAuthors.js'
 import { zhLocaleConfig } from './i18n/zh.js'
 import { twLocaleConfig } from './i18n/tw.js'
 import { zhSearchConfig } from './i18n/search/zh.js'
+import { twSearchConfig } from './i18n/search/tw.js'
 import { zhAnnouncement } from './i18n/plugins/Announcement/zh.js'
+import { twAnnouncement } from './i18n/plugins/Announcement/tw.js'
+
 
 import { 
   GitChangelog, 
@@ -50,7 +53,12 @@ export default defineConfig({
           disableContributors: false,
         },
       }),
-      AnnouncementPlugin( zhAnnouncement ),
+      AnnouncementPlugin({
+        locales: {
+          root: zhAnnouncement,
+          tw: twAnnouncement
+        }
+      }),
       groupIconVitePlugin({
         customIcon: {
           '文件资源管理器': 'flat-color-icons:folder',
@@ -88,7 +96,8 @@ export default defineConfig({
         locales: {
           // 配置项暂时没有放在i18n文件夹中对应的文件。
           // 但是插件本身支持也国际化,因此还无伤大雅。
-          root: zhSearchConfig
+          root: zhSearchConfig,
+          tw: twSearchConfig
         }
       }
     },
@@ -104,8 +113,9 @@ export default defineConfig({
     image: {
       lazyLoading: true
     },
-    // 这块的配置文件其实应该在语言配置文件定义的,但是VitePress不知道为什么没做这个。
-    // 未来可能会发issue。
+    // 这块的配置文件其实应该在语言配置文件定义的,但是VitePress不支持在语言文件定义`defineConfig.markdown`。
+    // 此问题已有相关issue,正等待解决。
+    // https://github.com/zammad/zammad-org/issues/16
     container: {
       tipLabel: 'Tip',
       warningLabel: 'Warning',

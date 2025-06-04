@@ -1,5 +1,5 @@
 import { defineConfig } from 'vitepress';
-export const zhSearchConfig = defineConfig({
+export const twSearchConfig = defineConfig({
   translations: {
     button: {
       buttonText: '搜索文檔',

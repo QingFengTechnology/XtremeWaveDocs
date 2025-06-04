@@ -1,8 +1,8 @@
 import { defineConfig } from 'vitepress';
-import { zhNavConfig } from './navbar/tw.js';
-import { zhSidebarConfig } from './sidebar/tw.js';
+import { twNavConfig } from './navbar/tw.js';
+import { twSidebarConfig } from './sidebar/tw.js';
 import { generateSidebar } from 'vitepress-sidebar';
-export const zhLocaleConfig = defineConfig({
+export const twLocaleConfig = defineConfig({
   label: '繁體中文',
   lang: 'zh-TW',
   title: 'XtremeWave模組文檔',
@@ -10,8 +10,8 @@ export const zhLocaleConfig = defineConfig({
   description: 'XtremeWave模組文檔,提供了XtremeWave旗下開源模組的詳細文檔,包括安裝、教學、配置等。',
   themeConfig: {
     siteTitle: '極致文檔',
-    nav: zhNavConfig,
-    sidebar: generateSidebar(zhSidebarConfig),
+    nav: twNavConfig,
+    sidebar: generateSidebar(twSidebarConfig),
     outline: {
       label: '頁面導航',
     },

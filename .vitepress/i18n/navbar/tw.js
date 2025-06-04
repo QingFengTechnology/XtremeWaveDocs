@@ -1,5 +1,5 @@
 import { defineConfig } from 'vitepress';
-export const zhNavConfig = defineConfig([
+export const twNavConfig = defineConfig([
     {
         text: '首頁',
         link: '/tw/',

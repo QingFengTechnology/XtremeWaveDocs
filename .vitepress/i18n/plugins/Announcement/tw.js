@@ -1,5 +1,5 @@
 import { defineConfig } from 'vitepress';
-export const zhAnnouncement = defineConfig({
+export const twAnnouncement = defineConfig({
   title: '公告',
   body: [
     {
