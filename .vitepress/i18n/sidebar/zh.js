@@ -8,8 +8,8 @@ export const zhSidebarConfig = defineConfig([
     useTitleFromFrontmatter: true,
     useFolderTitleFromIndexFile: true,
     sortMenusByFrontmatterOrder: true,
-    collapsed: false,
-    frontmatterOrderDefaultValue: 999
+    frontmatterOrderDefaultValue: 999,
+    collapsed: false
   },
   {
     scanStartPath: '/TheOtherRolesEdited',
@@ -18,7 +18,8 @@ export const zhSidebarConfig = defineConfig([
     useTitleFromFrontmatter: true,
     useFolderTitleFromIndexFile: true,
     sortMenusByFrontmatterOrder: true,
+    frontmatterOrderDefaultValue: 999,
     collapsed: false,
-    frontmatterOrderDefaultValue: 999
+    excludePattern: ['Settings/']
   }
 ])
