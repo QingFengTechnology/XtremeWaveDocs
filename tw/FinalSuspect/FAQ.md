@@ -26,23 +26,23 @@ order: 5
 
 ### 錯誤代碼:ErrFriendCodeFail{#ErrFriendCodeFail}
 
-從<mark>服務器獲取好友代碼失敗</mark>。
+从服务器获取好友代码失败。\
+请<mark>重启AmongUs</mark>以重试登录。
 
-請<mark>重啟AmongUs</mark>以重試登入
+### 错误代码：NoConnectionError {#NoConnectionError}
 
-### 錯誤代碼：NoConnectionError {#NoConnectionError}
+网络问题。\
+请<mark>重启AmongUs</mark>以重试登录。
 
-網絡問題。\
-請<mark>重啟AmongUs</mark>以重試登入。
+### 无错误代码提示,但提示`登录需要一点时间` {#login-need-sometimes}
 
-### 無錯誤代碼提示,但提示`登入需要一點時間`{#login-need-sometimes}
-
-網絡問題。\
-請<mark>重啟AmongUs並確認你是否掛了加速器</mark>。
+网络问题。\
+请<mark>重启AmongUs并确认你是否挂了加速器</mark>。
 
 :::tip
-部分情況可能需要掛代理(VPN)。\
-VPN≠加速器。
+
+部分情况可能需要挂代理(VPN)。
+
 :::
 
 ## 無法連接到FinalSuspect服務器{#cannot-connect-to-server}
