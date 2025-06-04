@@ -25,7 +25,8 @@ order: 5
 
 ### 错误代码: ErrFriendCodeFail {#ErrFriendCodeFail}
 
-从服务器获取好友代码失败。\
+从<mark>服务器获取好友代码失败</mark>。
+
 请<mark>重启AmongUs</mark>以重试登录。
 
 ### 错误代码：NoConnectionError {#NoConnectionError}
@@ -39,9 +40,8 @@ order: 5
 请<mark>重启AmongUs并确认你是否挂了加速器</mark>。
 
 :::tip
-
-部分情况可能需要挂代理(VPN)。
-
+部分情况可能需要挂代理(VPN)。\
+VPN ≠ 加速器。
 :::
 
 ## 无法连接到FinalSuspect服务器 {#cannot-connect-to-server}
