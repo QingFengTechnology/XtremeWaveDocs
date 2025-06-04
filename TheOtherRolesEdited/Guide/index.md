@@ -1,4 +1,4 @@
 ---
-title: 教程
+title: 基础教程
 order: 2
 ---
