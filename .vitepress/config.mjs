@@ -105,6 +105,15 @@ export default defineConfig({
     },
     image: {
       lazyLoading: true
+    },
+    // 这块的配置文件其实应该在语言配置文件定义的,但是VitePress不知道为什么没做这个。
+    // 未来可能会发issue。
+    container: {
+      tipLabel: 'Tip',
+      warningLabel: 'Warning',
+      dangerLabel: 'Danger',
+      infoLabel: 'Info',
+      detailsLabel: 'Details'
     }
   } 
 })

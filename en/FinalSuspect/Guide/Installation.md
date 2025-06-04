@@ -41,6 +41,7 @@ C:\Program Files (x86)\Steam\steamapps\common\Among Us
 
 您也可以通过Steam来自动打开AmongUs根目录。
 ![使用Steam打开AmongUs根目录](https://api.xtreme.net.cn/Docs/FinalSuspect/Guide/OpenAmongUsWithSteam.png)
+
 :::
 
 将Finalsuspect解压至AmongUs根目录。\
