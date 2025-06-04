@@ -1,9 +1,9 @@
 import { defineConfig } from 'vitepress';
-export const twSidebarConfig = defineConfig([
+export const zhSidebarConfig = defineConfig([
     {
         scanStartPath: '/tw/FinalSuspect',
         resolvePath: '/tw/FinalSuspect/',
-        basePath: '/',
+        basePath: '/tw/',
         useTitleFromFrontmatter: true,
         useFolderTitleFromIndexFile: true,
         sortMenusByFrontmatterOrder: true,

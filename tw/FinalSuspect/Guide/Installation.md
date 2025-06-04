@@ -39,12 +39,13 @@ C:\Program Files (x86)\Steam\steamapps\common\Among Us
 :::
 :::tip
 
-您也可以通過Steam來自動開啟AmongUs根目錄。
+您也可以透過Steam來自動開啟AmongUs根目錄。
 ![使用Steam開啟AmongUs根目錄](https://api.xtreme.net.cn/Docs/FinalSuspect/Guide/OpenAmongUsWithSteam.png)
+
 :::
 
 將Finalsuspect解壓至AmongUs根目錄。\
-解壓完成後,AmongUs根目錄應該是這樣的：
+解壓完成後,AmongUs根目錄應該是這樣的:
 
 ![解壓後的AmongUs根目錄](https://api.xtreme.net.cn/Docs/FinalSuspect/Guide/SteamUnzip.png)
 
@@ -67,7 +68,7 @@ C:\Program Files\Epic Games\AmongUs
 :::
 :::tip
 
-您也可以通過Epic來自動開啟AmongUs根目錄。
+您也可以透過Epic來自動開啟AmongUs根目錄。
 ![使用Epic開啟AmongUs根目錄](https://api.xtreme.net.cn/Docs/FinalSuspect/Guide/OpenAmongWithEpic.png)
 ![使用Epic開啟AmongUs根目錄2](https://api.xtreme.net.cn/Docs/FinalSuspect/Guide/OpenAmongWithEpic2.png)
 :::
