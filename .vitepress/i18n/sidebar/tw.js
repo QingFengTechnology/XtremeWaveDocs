@@ -3,7 +3,7 @@ export const twSidebarConfig = defineConfig([
     {
         scanStartPath: '/tw/FinalSuspect',
         resolvePath: '/tw/FinalSuspect/',
-        basePath: '/tw/',
+        basePath: '/',
         useTitleFromFrontmatter: true,
         useFolderTitleFromIndexFile: true,
         sortMenusByFrontmatterOrder: true,
