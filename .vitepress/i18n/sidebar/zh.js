@@ -10,5 +10,15 @@ export const zhSidebarConfig = defineConfig([
     sortMenusByFrontmatterOrder: true,
     collapsed: false,
     frontmatterOrderDefaultValue: 999
+  },
+  {
+    scanStartPath: '/Server',
+    resolvePath: '/Server/',
+    basePath: '/',
+    useTitleFromFrontmatter: true,
+    useFolderTitleFromIndexFile: true,
+    sortMenusByFrontmatterOrder: true,
+    collapsed: false,
+    frontmatterOrderDefaultValue: 999
   }
 ])
