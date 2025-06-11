@@ -7,6 +7,7 @@ export const zhNavConfig = defineConfig([
     text: '文档',
     items: [
       { text: 'FinalSuspect', link: '/FinalSuspect/Introduction', activeMatch: '/FinalSuspect/' },
+      { text: 'XtremeWave游戏服', link: '/Server/GettingStarted', activeMatch: '/Server/' }
     ]
   }
 ]);
