@@ -1,5 +1,5 @@
 import { defineConfig } from 'vitepress';
-export const twNavConfig = defineConfig([
+export const zhNavConfig = defineConfig([
     {
         text: '首頁',
         link: '/tw/',
@@ -15,6 +15,11 @@ export const twNavConfig = defineConfig([
                 text: 'FinalSuspect',
                 link: '/tw/FinalSuspect/Introduction',
                 activeMatch: '/tw/FinalSuspect/',
+            },
+            {
+                text: 'XtremeWave游戏服',
+                link: '/Server/GettingStarted',
+                activeMatch: '/Server/',
             },
         ],
     },
