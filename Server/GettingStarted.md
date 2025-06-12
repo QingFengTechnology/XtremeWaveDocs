@@ -4,7 +4,22 @@ order: 1
 ---
 # 快速开始
 
-## 安装
+## (推荐)快速安装:tada:
+
+使用脚本快速安装服务器配置文件,省去复杂操作的烦恼。
+
+<Links
+  :items="[
+    {
+      name: '下载快速安装脚本(Windows)',
+      desc: '版本1.1.4，相关服务由XtremeAPI提供',        
+      link: 'https://api.xtreme.net.cn/Docs/Server/DownloadServerRegion-1.4.4.bat',
+      icon: 'material-symbols:download-rounded'
+    }
+  ]"
+/>
+
+## 常规安装(Windows)
 
 下载区域配置文件。
 
