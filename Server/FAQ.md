@@ -30,20 +30,13 @@ order: 3
 
 很遗憾,我们目前还无法彻底的解决此问题。
 
-目前(根据关键词查找,截止于6.11),与此问题有关的issue/PR如下：
+我们已经报告了此问题,正等待进一步处理。
 <Links
   :items="[
     {
-      name: 'Fix spawntimeout not run for rejoining players',
-      desc: 'Pull Request #679',
+      name: 'Abnormal kickout due to SpawnTimeout',
+      desc: 'Issue #693',
       link: 'https://github.com/Impostor/Impostor/pull/679',
-      icon: 'icon-park-outline:pull-requests',
-      color: '#DA3633'
-    },
-    {
-      name: 'Improve current SpawnTimeOut kick',
-      desc: 'Issue #687',        
-      link: 'https://github.com/Impostor/Impostor/issues/687',
       icon: 'octicon:issue-opened-16',
       color: '#DA3633'
     }
