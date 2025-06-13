@@ -6,16 +6,21 @@ order: 3
 
 ## 连接问题 {#connection-issue}
 
+## 因配置文件过时导致的无法连接 {#region-too-old}
+
+我们于6月13日凌晨更新了服务器,这是一个较大改动,你需要重新安装此配置文件才能继续游玩。\
+<mark>如果你在6月12日能正常游玩,但13日就不行了,请先根据文档重新安装一次配置文件。</mark>
+
 ### Your client is too new, please update your Impostor server to play. {#client-too-new}
 
 你的客户端版本过新。\
-如果你连接的是Legacy版本的服务器,请更换至常规版本(即无`Legacy`后缀的服务器)。\
-如果你连接的就是常规版本,请在任意QingFeng所在的群聊(例如社长大本营、XtremeUs、杨带/ShuiHei/叨叨群)`@QingFeng`并附上错误信息。
+如果你连接的是Legacy版本的服务器,请更换至Normal版本(即带`Normal`后缀的服务器)。\
+如果你连接的就是Normal版本,请在任意QingFeng所在的群聊(例如社长大本营、XtremeUs、杨带/ShuiHei/叨叨群)`@QingFeng`并附上错误信息。
 
 ### Please update your game to play on this server. {#client-too-old}
 
 你的客户端版本过旧。\
-如果你连接的是常规版本服务器,请更换至Legacy版本(即带有`Legacy`后缀的服务器)。\
+如果你连接的是Normal版本服务器,请更换至Legacy版本(即带有`Legacy`后缀的服务器)。\
 此外,如果你使用的就是Legacy版本,证明我们的服务器均无法支持它。
 > 我们的Legacy服务器支持的最低Among Us版本为<mark>2023.10.24</mark>。
 
@@ -28,15 +33,21 @@ order: 3
 <mark>但这个方案有代价,目前此值已经超出了推荐范围,这会更容易导致高延迟和小绿人问题。</mark>
 > 此外,这个方法也没有完全解决此问题,我们在6月11日的日志中仍注意到因SpawnTimeout导致被踢出的问题。
 
-很遗憾,我们目前还无法彻底的解决此问题。
-
-我们已经报告了此问题,正等待进一步处理。
+~~很遗憾,<mark>我们无法的解决此问题</mark>。~~\
+目前,此问题正等待修复。
 <Links
   :items="[
     {
       name: 'Abnormal kickout due to SpawnTimeout',
       desc: 'Issue #693',
-      link: 'https://github.com/Impostor/Impostor/pull/679',
+      link: 'https://github.com/Impostor/Impostor/issues/693',
+      icon: 'pajamas:issue-close',
+      color: '#656C76'
+    },
+    {
+      name: 'Improve current SpawnTimeOut kick',
+      desc: 'Issue #687',
+      link: 'https://github.com/Impostor/Impostor/issues/687',
       icon: 'octicon:issue-opened-16',
       color: '#DA3633'
     }
