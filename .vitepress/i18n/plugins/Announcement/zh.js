@@ -5,6 +5,13 @@ export const zhAnnouncement = defineConfig({
   body: [
     { type: 'text', content: '文档将不再由QingFeng进行维护。' },
   ],
+  footer: [
+    {
+      type: 'button',
+      content: '查看详情',
+      link: '/about#contribute'
+    }
+  ],
   duration: -1,
   mobileMinify: true,
   twinkle: false,
