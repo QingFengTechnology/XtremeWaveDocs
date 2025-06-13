@@ -5,11 +5,8 @@ import { groupIconMdPlugin, groupIconVitePlugin } from 'vitepress-plugin-group-i
 import { mapAuthorsList } from './i18n/plugins/mapAuthors.js'
 // i18n配置文件
 import { zhLocaleConfig } from './i18n/zh.js'
-import { twLocaleConfig } from './i18n/tw.js'
 import { zhSearchConfig } from './i18n/search/zh.js'
-import { twSearchConfig } from './i18n/search/tw.js'
 import { zhAnnouncement } from './i18n/plugins/Announcement/zh.js'
-import { twAnnouncement } from './i18n/plugins/Announcement/tw.js'
 
 
 import { 
@@ -53,12 +50,11 @@ export default defineConfig({
           disableContributors: false,
         },
       }),
-      AnnouncementPlugin({
+      /*AnnouncementPlugin({
         locales: {
-          root: zhAnnouncement,
-          tw: twAnnouncement
+          root: zhAnnouncement
         }
-      }),
+      }),*/
       groupIconVitePlugin({
         customIcon: {
           '文件资源管理器': 'flat-color-icons:folder',
@@ -72,14 +68,11 @@ export default defineConfig({
   cleanUrls: true,
   editLink: {
     pattern: 'https://github.com/QingFengTechnology/XtremeWaveDocs/blob/v2/:path',
-    // 若对应语言配置未定义text,那么就会使用此处的设置。
-    // 虽然但是,Crowin上进行翻译是基于简中的,如果Crowdin那里没人翻译其实是用简中的(((
     text: 'View this page on Github'
   },
   lastUpdated: false,
   locales: {
-    root: zhLocaleConfig,
-    tw: twLocaleConfig
+    root: zhLocaleConfig
   },
   themeConfig: {
     logo: '/XtremeWave.png',
@@ -94,10 +87,7 @@ export default defineConfig({
       provider: 'local',
       options: {
         locales: {
-          // 配置项暂时没有放在i18n文件夹中对应的文件。
-          // 但是插件本身支持也国际化,因此还无伤大雅。
-          root: zhSearchConfig,
-          tw: twSearchConfig
+          root: zhSearchConfig
         }
       }
     },
@@ -113,15 +103,12 @@ export default defineConfig({
     image: {
       lazyLoading: true
     },
-    // 这块的配置文件其实应该在语言配置文件定义的,但是VitePress不支持在语言文件定义`defineConfig.markdown`。
-    // 此问题已有相关issue,正等待解决。
-    // https://github.com/zammad/zammad-org/issues/16
     container: {
-      tipLabel: 'Tip',
-      warningLabel: 'Warning',
-      dangerLabel: 'Danger',
-      infoLabel: 'Info',
-      detailsLabel: 'Details'
+      tipLabel: '提示',
+      warningLabel: '警告',
+      dangerLabel: '特别注意',
+      infoLabel: '信息',
+      detailsLabel: '详细信息'
     }
   } 
 })

@@ -3,7 +3,6 @@
 <div align="center">
 
 <img src="https://badgen.net/github/license/QingFengTechnology/XtremeWaveDocs" alt="许可证名称">
-<img src="https://badges.crowdin.net/xtremedocs/localized.svg" alt="Crowdin i18n进度">
 
 </div>
 
