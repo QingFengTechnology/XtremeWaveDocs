@@ -1,9 +1,9 @@
 import { defineConfig } from 'vitepress';
 
 export const zhAnnouncement = defineConfig({
-  title: '公告',
+  title: '重要通知',
   body: [
-    { type: 'text', content: '文档现已支持繁体中文！' },
+    { type: 'text', content: '文档将不再由QingFeng进行维护。' },
   ],
   duration: -1,
   mobileMinify: true,

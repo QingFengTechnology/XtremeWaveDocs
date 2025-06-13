@@ -14,8 +14,7 @@
 
 - Node.js
   - 最低要求18.x,低于此版本不受支持。
-  - 我们推荐使用20.x/22.x。
-  - 24.x版本暂不保证持续可用性,但Github构建测试曾通过。
+  - 我们推荐使用22.x/24.x。
 - npm
 - git
 
@@ -65,49 +64,6 @@ npm run docs:dev
 > 特别是VuePress-hope主题,我们最开始就是参考这个主题的配置文件来编写的。
 
 说到底,这也只是多了几个`import`和`export`而已。
-
-##### base选项
-
-base是侧边栏选项(至少在XtremeDocs他只用侧边栏),正如其名称,他决定了侧边栏的基本路径。\
-这点在官方教程中也同样没有提及,因此我们来举个例子让你更好的了解他:
-
-```js
-// /docs/.vitepress/i18n/sidebar/zh/fs.js
-
-  {
-    items: [
-      { text: '简介', link: '/FinalSuspect/' },
-      {
-        text: '教程',
-        base: '/FinalSuspect/Guide/',
-        items: [
-          { text: '安装', link: 'Installation' },
-          { text: '更新', link: 'Update' }
-        ]
-      }
-    ]
-  }
-
-```
-
-如果没有base选项,那么侧边栏将会是这样的:
-
-```js
-
-  {
-    items: [
-      { text: '简介', link: '/FinalSuspect/' },
-      {
-        text: '教程',
-        items: [
-          { text: '安装', link: '/FinalSuspect/Guide/Installation' },
-          { text: '更新', link: '/FinalSuspect/Guide/Update' }
-        ]
-      }
-    ]
-  }
-
-```
 
 #### 标题锚点
 
