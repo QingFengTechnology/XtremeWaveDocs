@@ -55,4 +55,4 @@ order: 1
 
 ## 使用 {#use}
 
-在创建游戏时,将`地区`选项更改为`XtremeWave-Normal(HK)` / `XtremeWave-Legacy(HK)`即可。
+在创建游戏时,将`地区`选项更改为`XtremeWave.Normal(HK)` / `XtremeWave.Legacy(HK)`即可。
