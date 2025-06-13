@@ -2,9 +2,24 @@
 title: 快速开始
 order: 1
 ---
-# 快速开始
+# 快速开始 {#GettingStarted}
 
-## 安装
+## (推荐)快速安装:tada: {#fast-install}
+
+使用脚本快速安装服务器配置文件,省去复杂操作的烦恼。
+
+<Links
+  :items="[
+    {
+      name: '下载快速安装脚本(Windows)',
+      desc: '版本1.1.4,相关服务由XtremeAPI提供',        
+      link: 'https://api.xtreme.net.cn/Docs/Server/DownloadServerRegion-1.4.4.bat',
+      icon: 'material-symbols:download-rounded'
+    }
+  ]"
+/>
+
+## 常规安装(Windows) {#win-install}
 
 下载区域配置文件。
 
@@ -38,6 +53,6 @@ order: 1
 (可选)右键选择刚刚移动的文件,选择`属性`,并将此文件设为只读。\
 这是为了避免某些模组强制使用自己提供的配置文件,导致我们自定义的被覆盖。
 
-## 使用
+## 使用 {#use}
 
 在创建游戏时,将`地区`选项更改为`XtremeWave(HK)` / `XtremeWave-Legacy(HK)`即可。
