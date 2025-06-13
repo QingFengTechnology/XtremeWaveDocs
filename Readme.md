@@ -6,6 +6,9 @@
 
 </div>
 
+> [!important]
+> 我(组织所有者)已离开XtremeWave,此仓库将交由社区维护(如有),我仅协助审查代码。
+
 这里是[XtremeWave模组文档](https://docs.xtreme.net.cn)的源码。\
 所有模组文档的所有可用版本均会放置在此处。
 
