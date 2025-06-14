@@ -2,6 +2,7 @@ import { defineConfig } from 'vitepress';
 
 export const zhSidebarConfig = defineConfig([
   {
+    documentRootPath: '/src',
     scanStartPath: '/FinalSuspect',
     resolvePath: '/FinalSuspect/',
     basePath: '/',
