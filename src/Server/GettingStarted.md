@@ -12,8 +12,8 @@ order: 1
   :items="[
     {
       name: '下载快速安装脚本(Windows)',
-      desc: '版本1.6.1,相关服务由XtremeAPI提供',        
-      link: 'https://api.xtreme.net.cn/Docs/Server/DownloadServerRegion-161.bat',
+      desc: '版本1.6.2,相关服务由XtremeAPI提供',        
+      link: 'https://api.xtreme.net.cn/Docs/Server/DownloadServerRegion.bat',
       icon: 'material-symbols:download-rounded'
     }
   ]"
