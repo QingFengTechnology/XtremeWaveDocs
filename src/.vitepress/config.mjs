@@ -3,6 +3,7 @@ import { defineConfig } from 'vitepress'
 import { AnnouncementPlugin } from 'vitepress-plugin-announcement'
 import { groupIconMdPlugin, groupIconVitePlugin } from 'vitepress-plugin-group-icons'
 import { mapAuthorsList } from './i18n/plugins/mapAuthors.js'
+import footnote_plugin from "markdown-it-footnote";
 // i18n配置文件
 import { zhLocaleConfig } from './i18n/zh.js'
 import { zhSearchConfig } from './i18n/search/zh.js'
@@ -98,7 +99,8 @@ export default defineConfig({
       md.use(InlineLinkPreviewElementTransform),
       md.use(groupIconMdPlugin,{
         titleBar: { includeSnippet: true }
-      })
+      }),
+      md.use(footnote_plugin)
     },
     image: {
       lazyLoading: true
