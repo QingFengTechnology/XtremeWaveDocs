@@ -20,34 +20,27 @@ order: 3
 ### Please update your game to play on this server. {#client-too-old}
 
 你的客户端版本过旧。\
-如果你连接的是Normal版本服务器,请更换至Legacy版本(即带有`Legacy`后缀的服务器)。\
+如果你连接的是Normal版本服务器,<mark>请更换至Legacy版本</mark>(即带有`Legacy`后缀的服务器)。\
 此外,如果你使用的就是Legacy版本,证明我们的服务器均无法支持它。
 > 我们的Legacy服务器支持的最低Among Us版本为<mark>2023.10.24</mark>。
 
-## 一键安装器问题 {#fast-install-issue}
+### Please update your game to play in this lobby. {#client-version-wrong}
 
-很抱歉,我们还没记录任何有关快速安装脚本的问题。\
-但如果你遇到了相关问题,请及时报告。
+你的客户端版本不正确。\
+请联系你要加入房间的房主,问问他们正确AmongUs/模组版本是什么。
 
-## 已知问题 {#known-issue}
+### Reliable packet `number` (size=`number`) was not ack'd after `number`ms (`number` resends) {#Reliable-issue}
 
-### 山东或个别地区无法正常连接、连接延迟异常 {#ShanDong-issue}
+> 此问题与此错误类型一致：Sent 6 pings that remote has not responded to.
 
-我们已收到了相关问题的报告,并尝试了部分解决措施。\
-目前,我们通过延长服务器的`SpawnTimeout`和`ConnectionTimeout`最大值来暂时解决这个问题。\
-<mark>但这个方案有代价,目前此值已经超出了推荐范围,这会更容易导致高延迟和小绿人问题。</mark>
-> 此外,这个方法也没有完全解决此问题,我们在6月11日的日志中仍注意到因SpawnTimeout导致被踢出的问题。
+很抱歉,这是服务端的问题,并且此问题发生的概率较高。\
+这是因为云服务商防火墙的UDP丢包问题[^1],我们无法通过服务器彻底解决他。\
+但目前,我们已针对此问题采取了缓解措施,尽最大程度避免出现此问题。
 
-目前,此问题正等待修复。
+Impostor也在积极尝试避免此问题。
+
 <Links
   :items="[
-    {
-      name: 'Abnormal kickout due to SpawnTimeout',
-      desc: 'Issue #693',
-      link: 'https://github.com/Impostor/Impostor/issues/693',
-      icon: 'pajamas:issue-close',
-      color: '#656C76'
-    },
     {
       name: 'Improve current SpawnTimeOut kick',
       desc: 'Issue #687',
@@ -57,6 +50,16 @@ order: 3
     }
   ]"
 />
+
+
+## 一键安装器问题 {#fast-install-issue}
+
+很抱歉,我们还没记录任何有关快速安装脚本的问题。\
+但如果你遇到了相关问题,请及时报告。
+
+> 但如果你遇到了任何有关安装器的问题且暂无人解答,我们建议你根据手动安装教程安装。
+
+## 已知问题 {#known-issue}
 
 ### 常规版服务器中无法搜索公开房间 {#cannot-search}
 
@@ -89,3 +92,5 @@ order: 3
 
 请在任意QingBot(QQ`355811169`)所在的群聊(如XtremeUs、天云群)@Qingbot,并附上你的问题。
 > Bot可能不会回复,但是我一定会收到此报告(其实是看日志知道的)。
+
+[^1]: UDP丢包指的是在使用用户数据报协议（UDP）进行网络通信时，数据包在传输过程中未能到达目标地址的现象。
