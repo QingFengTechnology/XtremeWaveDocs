@@ -96,10 +96,10 @@ export default defineConfig({
   },
   markdown: { 
     config(md) { 
-      md.use(InlineLinkPreviewElementTransform),
+      md.use(InlineLinkPreviewElementTransform)
       md.use(groupIconMdPlugin,{
         titleBar: { includeSnippet: true }
-      }),
+      })
       md.use(footnote_plugin)
     },
     image: {

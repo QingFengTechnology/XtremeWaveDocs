@@ -53,7 +53,7 @@ export const Theme: ThemeConfig = {
     app.use(NolebaseGitChangelogPlugin, { 
       commitsRelativeTime: true,
       hideChangelogHeader: true
-    }),
+    })
     app.use(NolebaseInlineLinkPreviewPlugin)
     app.component('Box', DocBox) 
     app.component('Pill', DocPill) 
