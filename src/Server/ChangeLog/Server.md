@@ -10,7 +10,7 @@ order: 1
 本次在<mark>双版本服务器均支持了[Reactor](https://github.com/NuclearPowered/Reactor)</mark>。\
 除此之外,Normal版本<mark>额外支持了从服务器控制的自定义房间代码</mark>。\
 在本次更新,我们提供了<mark>多达79条</mark>自定义房间代码。
-> 在自定义房间号分配完后,服务器将正常分配普通房号。
+> 在自定义代码分配完后,服务器将正常分配普通(随机生成)代码。
 
 ## 2025.6.18
 
