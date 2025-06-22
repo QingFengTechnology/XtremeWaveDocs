@@ -1,6 +1,6 @@
 ---
 title: 疑难解答
-order: 3
+order: 4
 ---
 # 疑难解答 {#FAQ}
 
