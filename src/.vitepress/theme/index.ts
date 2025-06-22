@@ -20,6 +20,7 @@ import '@nolebase/vitepress-plugin-inline-link-preview/client/style.css'
 
 import { BProgress } from '@bprogress/core';
 
+import '@theojs/lumen/badge'
 import { DocBox, DocBoxCube, DocLinks, DocPill, ShareButton } from '@theojs/lumen'
 
 import 'virtual:group-icons.css'

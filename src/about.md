@@ -14,7 +14,7 @@
 如果您喜欢这个项目,不妨考虑[赞助我们](https://www.xtreme.net.cn/donate)。\
 您的支持将帮助我们继续维护和改进此文档。
 
-## 贡献 {#contribute}
+<!--## 贡献 {#contribute}
 
 :::danger 重要通知
 
@@ -36,4 +36,4 @@ QingFeng将仅协助审查是否存在明显问题(或审查可能包含恶意�
 
 ## 许可证 {#license}
 
-本文档采用[AGPL-3.0许可证](https://github.com/QingFengTechnology/XtremeWaveDocs/blob/v2/LICENSE),请遵守相关协议。
+本文档采用[AGPL-3.0许可证](https://github.com/QingFengTechnology/XtremeWaveDocs/blob/v2/LICENSE),请遵守相关协议。-->

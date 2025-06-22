@@ -6,10 +6,14 @@ order: 3
 
 ## 连接问题 {#connection-issue}
 
-### 因配置文件过时导致的无法连接 {#region-too-old}
+### The remote sent a disconnect request {#secure-no-plugin}
 
-我们于<mark>6月13日凌晨和6月14日</mark>更新了服务器,这是一个较大改动,你需要重新安装此配置文件才能继续游玩。\
-<mark>如果你在6月12日能正常游玩,但13日就不行了,请先根据文档重新安装一次配置文件。</mark>
+此问题目前只发现在`Secure`服务器会出现。\
+这是因为我们无法验证你的身份导致的。
+
+可能是因为:
+- 你可能没有安装我们的Nebula插件包。
+- 你的AmongUs版本过老(需要≥16.0.5)。
 
 ### Your client is too new, please update your Impostor server to play. {#client-too-new}
 
@@ -72,7 +76,7 @@ Impostor也在积极尝试避免此问题。
 
 服务器掉线了。\
 这是服务器端的问题,说明此刻服务器正在维护/遭到攻击。\
-你可以暂时选择其他区域的服务器游玩。\
+你可以暂时选择其他区域的服务器游玩。
 > 你还可以通过[这里](https://status.qingfengawa.top/status/main)查看服务器是否可被正常访问。\
 > 我们还在部分QQ群聊设置了通知Bot,在服务器出现故障时会发送消息提醒。
 
