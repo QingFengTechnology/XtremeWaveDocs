@@ -14,7 +14,7 @@ order: 6
 
 ## 赞助者列表 {#list}
 
-我们已累积收到了赞助<mark>1064元</mark>。\
+我们已累积收到了赞助<mark>1076元</mark>。\
 承蒙厚爱,我们将在这条路上走得更远。
 <!--,其中匿名赞助[^1]有30元(2.8%)。\-->
 <script setup>
@@ -62,6 +62,11 @@ const members = [
     avatar: 'https://api.xtreme.net.cn/Docs/Server/DonateAvatar/HXJ.jpg',
     name: '胡星靖',
     title: '赞助了24元'
+  },
+  {
+    avatar: 'https://api.xtreme.net.cn/Docs/Server/DonateAvatar/mskof.jpg',
+    name: 'mskof',
+    title: '赞助了12元'
   },
   {
     avatar: 'https://api.xtreme.net.cn/Docs/Server/DonateAvatar/EternalSugar.jpg',
