@@ -6,7 +6,7 @@ order: 4
 
 ## 连接问题 {#connection-issue}
 
-### The remote sent a disconnect request {#secure-no-plugin}
+### Auth is required {#secure-cannot-connection}
 
 此问题目前只发现在`Secure`服务器会出现。\
 这是因为我们无法验证你的身份导致的。

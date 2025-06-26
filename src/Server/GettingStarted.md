@@ -90,4 +90,4 @@ order: 1
 将此压缩包拖动到`Addons`文件夹即可。
 
 完成后,你可以打开Nebula并创建一个房间来验证是否安装正确。\
-如遇到问题,请参见[疑难解答](FAQ#secure-no-plugin)。
+如遇到问题,请参见[疑难解答](FAQ#secure-cannot-connection)。
