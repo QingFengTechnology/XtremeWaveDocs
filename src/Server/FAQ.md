@@ -15,6 +15,11 @@ order: 4
 - 你可能没有安装我们的Nebula插件包。
 - 你的AmongUs版本过老(需要≥16.0.5)。
 
+### 您与服务器的连接已中断。如果这种情形频繁发生，请检查您的网络强度。这也可能是服务器端的问题。
+
+你的配置文件过时/安装错误。\
+请重新按照[安装教程](GettingStarted)安装配置文件。
+
 ### Your client is too new, please update your Impostor server to play. {#client-too-new}
 
 你的客户端版本过新。\
