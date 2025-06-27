@@ -29,7 +29,6 @@ Legacy服务器是为了响应玩家需求而来的服务器。\
 | :----------------------: | :--------------------------------------------: | :----------------------------------------: | :----------------------------------------: |
 |     玩家信息获取[^4]     |        <Badge type="tip" text="完整" />        |   <Badge type="danger" text="不支持" />    |   <Badge type="danger" text="不支持" />    |
 |    基于好友代码的封禁    |      <Badge type="info" text="规划中" />       |   <Badge type="danger" text="不支持" />    |   <Badge type="danger" text="不支持" />    |
-|       IP 地址获取        |      <Badge type="tip" text="原生支持" />      | <Badge type="warning" text="依赖第三方" /> | <Badge type="warning" text="依赖第三方" /> |
 |    基于 IP 地址的封禁    |      <Badge type="tip" text="原生支持" />      | <Badge type="warning" text="依赖第三方" /> | <Badge type="warning" text="依赖第三方" /> |
 |   基于 PUID 的封禁[^5]   |      <Badge type="info" text="规划中" />       |   <Badge type="danger" text="不支持" />    |   <Badge type="danger" text="不支持" />    |
 | 基于 authInfo 的封禁[^6] |      <Badge type="info" text="规划中" />       |   <Badge type="danger" text="不支持" />    |   <Badge type="danger" text="不支持" />    |
