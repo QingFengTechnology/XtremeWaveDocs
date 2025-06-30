@@ -20,22 +20,27 @@ order: 4
 你的配置文件过时/安装错误。\
 请重新按照[安装教程](GettingStarted)安装配置文件。
 
-### Your client is too new, please update your Impostor server to play. {#client-too-new}
+### Your client is too new, please update your Impostor server to play. {#needs-new-server}
 
-你的客户端版本过新。\
+你的客户端版本<mark>相较于服务器</mark>过新。\
 如果你连接的是Legacy版本的服务器,<mark>请更换至Normal版本</mark>(即带`Normal`后缀的服务器)。\
 如果你连接的就是Normal版本,请联系QingFeng。
 
-### Please update your game to play on this server. {#client-too-old}
+### Please update your game to play on this server. {#needs-old-server}
 
-你的客户端版本过旧。\
+你的客户端版本<mark>相较于服务器</mark>过旧。\
 如果你连接的是Normal版本服务器,<mark>请更换至Legacy版本</mark>(即带有`Legacy`后缀的服务器)。\
 此外,如果你使用的就是Legacy版本,证明我们的服务器均无法支持它。
 > 我们的Legacy服务器支持的最低Among Us版本为<mark>2023.10.24</mark>。
 
-### Please update your game to play in this lobby. {#client-version-wrong}
+### Please update your game to play in this lobby. {#client-version-old}
 
-你的客户端版本不正确。\
+你的客户端版本<mark>相较于房主</mark>太旧。\
+请联系你要加入房间的房主,问问他们正确AmongUs/模组版本是什么。
+
+## Your game version is too new for this lobby.If you want to join this lobby you need to downgrade your client. {#client-version-new}
+
+你的客户端版本<mark>相较于房主</mark>太新。\
 请联系你要加入房间的房主,问问他们正确AmongUs/模组版本是什么。
 
 ### Reliable packet `number` (size=`number`) was not ack'd after `number`ms (`number` resends) {#Reliable-issue}
