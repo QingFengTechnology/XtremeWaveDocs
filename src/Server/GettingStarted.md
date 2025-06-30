@@ -11,9 +11,8 @@ order: 1
 <Links
   :items="[
     {
-      name: '下载快速安装脚本(Windows)',
-      desc: '版本1.7.0,相关服务由XtremeAPI提供',        
-      link: 'https://api.xtreme.net.cn/Docs/Server/DownloadServerRegion.bat',
+      name: '下载快速安装脚本(Windows)', 
+      link: 'QQ',
       icon: 'material-symbols:download-rounded'
     }
   ]"
@@ -26,9 +25,8 @@ order: 1
 <Links
   :items="[
     {
-      name: '下载区域配置文件',
-      desc: '相关服务由XtremeAPI提供',        
-      link: 'https://api.xtreme.net.cn/Docs/Server/regionInfo.json',
+      name: '下载区域配置文件', 
+      link: 'QQ',
       icon: 'material-symbols:download-rounded'
     }
   ]"
@@ -79,8 +77,7 @@ order: 1
   :items="[
     {
       name: '下载Nebula插件包',
-      desc: '相关服务由XtremeAPI提供',        
-      link: 'https://api.xtreme.net.cn/Docs/Server/XtremeAuth.zip',
+      link: 'QQ',
       icon: 'material-symbols:download-rounded'
     }
   ]"
