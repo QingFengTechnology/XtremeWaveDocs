@@ -12,7 +12,7 @@ order: 7
     {
       name: '加入QQ群', 
       link: 'https://qm.qq.com/q/8B0cCYu0rm',
-      icon: 'material-symbols:download-rounded'
+      icon: 'tdesign:logo-qq-filled'
     }
   ]"
 />
