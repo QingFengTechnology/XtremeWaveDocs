@@ -15,7 +15,7 @@ order: 4
 - 你可能没有安装我们的Nebula插件包。
 - 你的AmongUs版本过老(需要≥16.0.5)。
 
-### 您与服务器的连接已中断。如果这种情形频繁发生，请检查您的网络强度。这也可能是服务器端的问题。
+### 您与服务器的连接已中断。如果这种情形频繁发生，请检查您的网络强度。这也可能是服务器端的问题。 {#region-too-old}
 
 你的配置文件过时/安装错误。\
 请重新按照[安装教程](GettingStarted)安装配置文件。
@@ -38,7 +38,7 @@ order: 4
 你的客户端版本<mark>相较于房主</mark>太旧。\
 请联系你要加入房间的房主,问问他们正确AmongUs/模组版本是什么。
 
-## Your game version is too new for this lobby.If you want to join this lobby you need to downgrade your client. {#client-version-new}
+### Your game version is too new for this lobby.If you want to join this lobby you need to downgrade your client. {#client-version-new}
 
 你的客户端版本<mark>相较于房主</mark>太新。\
 请联系你要加入房间的房主,问问他们正确AmongUs/模组版本是什么。
@@ -67,6 +67,12 @@ Impostor也在积极尝试避免此问题。
 
 目前,如果你遇到了这个问题,那很抱歉,你只能等待游戏结束再加入了。
 
+:::tip
+
+十堰地区频繁出现此提示更多可能是被攻击了。
+
+:::
+
 ## 一键安装器问题 {#fast-install-issue}
 
 很抱歉,我们还没记录任何有关快速安装脚本的问题。\
@@ -85,7 +91,7 @@ Impostor也在积极尝试避免此问题。
 ### 代码：502 {#auth-code-502}
 
 服务器掉线了。\
-这是服务器端的问题,说明此刻服务器正在维护/遭到攻击。\
+这是服务器端的问题,说明此刻服务器正在维护。\
 你可以暂时选择其他区域的服务器游玩。
 > 你还可以通过[这里](https://status.qingfengawa.top/status/main)查看服务器是否可被正常访问。\
 > 我们还在部分QQ群聊设置了通知Bot,在服务器出现故障时会发送消息提醒。
