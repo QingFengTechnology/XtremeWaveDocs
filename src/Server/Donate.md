@@ -14,11 +14,11 @@ order: 6
 
 ## 赞助者列表 {#list}
 
-我们已累积收到了赞助<mark>1076元</mark>。\
+我们已累积收到了赞助<mark>1124元</mark>。\
 承蒙厚爱,我们将在这条路上走得更远。
 <!--,其中匿名赞助[^1]有30元(2.8%)。\-->
 <script setup>
-import { VPTeamMembers } from 'vitepress/theme'
+import { VPTeamMembers } from 'vitepress/theme';
 
 const members = [
   {
@@ -42,6 +42,11 @@ const members = [
     links: [
       { icon: 'bilibili', link: 'https://space.bilibili.com/360363478' }
     ]
+  },
+  {
+    avatar: 'https://api.xtreme.net.cn/Docs/Server/DonateAvatar/fuyi.jpg',
+    name: '抚意ww',
+    title: '赞助了48元'
   },
   {
     avatar: 'https://api.xtreme.net.cn/Docs/Server/DonateAvatar/XWhite.jpg',
