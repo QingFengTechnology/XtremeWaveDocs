@@ -5,6 +5,14 @@ order: 7
 # 加入QQ群
 
 自2025.6.30日起,为了确保可控性,我们将不再提供对外下载配置文件/安装脚本的渠道。\
-~~您需要加入QQ群进行下载。~~
+您需要加入QQ群进行下载。
 
-<mark>服务器暂时不对外开放。</mark>
+<Links
+  :items="[
+    {
+      name: '加入QQ群', 
+      link: 'https://qm.qq.com/q/8B0cCYu0rm',
+      icon: 'material-symbols:download-rounded'
+    }
+  ]"
+/>
