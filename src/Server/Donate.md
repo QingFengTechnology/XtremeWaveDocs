@@ -67,7 +67,7 @@ const members = [
   },
   {
     avatar: 'https://api.xtreme.net.cn/Docs/Server/DonateAvatar/KpCam.jpg',
-    name: '冬枭',
+    name: '客串齐',
     title: '赞助了38元'
   },
   {
