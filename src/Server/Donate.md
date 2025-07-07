@@ -28,7 +28,7 @@ order: 6
 
 ## 赞助者列表 {#list}
 
-我们已累积收到了赞助<mark>1196.6元</mark>。\
+我们已累积收到了赞助<mark>1310.6元</mark>。\
 承蒙厚爱,我们将在这条路上走得更远。
 <script setup>
 import { VPTeamMembers } from 'vitepress/theme';
