@@ -102,6 +102,11 @@ const members = [
     title: '赞助了6.6元'
   },
   {
+    avatar: 'https://api.xtreme.net.cn/Docs/Server/DonateAvatar/tr.jpg',
+    name: '天顺启',
+    title: '赞助了6元'
+  },
+  {
     avatar: 'https://api.xtreme.net.cn/Docs/Server/DonateAvatar/ndlfc.png',
     name: '你的卤肥肠',
     title: '赞助了6元'
