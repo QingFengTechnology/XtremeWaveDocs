@@ -28,7 +28,7 @@ order: 6
 
 ## 赞助者列表 {#list}
 
-我们已累积收到了赞助<mark>1310.6元</mark>。\
+我们已累积收到了赞助<mark>1334.6元</mark>。\
 承蒙厚爱,我们将在这条路上走得更远。
 <script setup>
 import { VPTeamMembers } from 'vitepress/theme';
@@ -59,7 +59,7 @@ const members = [
   {
     avatar: 'https://api.xtreme.net.cn/Docs/Server/DonateAvatar/fuyi.jpg',
     name: '抚意ww',
-    title: '赞助了48元'
+    title: '赞助了72元'
   },
   {
     avatar: 'https://api.xtreme.net.cn/Docs/Server/DonateAvatar/XWhite.jpg',
