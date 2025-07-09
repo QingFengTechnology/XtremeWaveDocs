@@ -3,15 +3,15 @@ import { defineConfig } from 'vitepress';
 export const zhAnnouncement = defineConfig({
   title: '重要通知',
   body: [
-    { type: 'text', content: '文档将不再由QingFeng进行维护。' },
+    { type: 'text', content: 'Xtreme.Secure因服务器日活过低被暂时关闭。<br>相关文档尚未更新。' },
   ],
-  footer: [
+  /*footer: [
     {
       type: 'button',
       content: '查看详情',
       link: '/about#contribute'
     }
-  ],
+  ],*/
   duration: -1,
   mobileMinify: true,
   twinkle: false,
