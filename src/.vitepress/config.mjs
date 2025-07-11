@@ -51,11 +51,11 @@ export default defineConfig({
           disableContributors: false,
         },
       }),
-      AnnouncementPlugin({
+      /*AnnouncementPlugin({
         locales: {
           root: zhAnnouncement
         }
-      }),
+      }),*/
       groupIconVitePlugin({
         customIcon: {
           '文件资源管理器': 'flat-color-icons:folder',

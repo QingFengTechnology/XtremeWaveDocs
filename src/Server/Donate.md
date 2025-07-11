@@ -28,7 +28,7 @@ order: 6
 
 ## 赞助者列表 {#list}
 
-我们已累积收到了赞助<mark>1334.6元</mark>。\
+我们已累积收到了赞助<mark>1392.6元</mark>。\
 承蒙厚爱,我们将在这条路上走得更远。
 <script setup>
 import { VPTeamMembers } from 'vitepress/theme';
@@ -51,10 +51,15 @@ const members = [
   {
     avatar: 'https://api.xtreme.net.cn/Docs/Server/DonateAvatar/Chunfu.jpg',
     name: '不收纯符不改名',
-    title: '赞助了96元',
+    title: '赞助了126元',
     links: [
       { icon: 'bilibili', link: 'https://space.bilibili.com/360363478' }
     ]
+  },
+  {
+    avatar: 'https://api.xtreme.net.cn/Docs/Server/DonateAvatar/yzz.jpg',
+    name: '一只野生的野指针',
+    title: '赞助了98元'
   },
   {
     avatar: 'https://api.xtreme.net.cn/Docs/Server/DonateAvatar/fuyi.jpg',
@@ -80,6 +85,11 @@ const members = [
     avatar: 'https://api.xtreme.net.cn/Docs/Server/DonateAvatar/KpCam.jpg',
     name: '客串齐',
     title: '赞助了38元'
+  },
+  {
+    avatar: 'https://api.xtreme.net.cn/Docs/Server/DonateAvatar/faust.jpg',
+    name: 'faust',
+    title: '赞助了30元'
   },
   {
     avatar: 'https://api.xtreme.net.cn/Docs/Server/DonateAvatar/HXJ.jpg',
