@@ -2,14 +2,14 @@
 title: 版本选择
 order: 2
 ---
-# 版本选择 {#Version-Choose}
+# 版本选择 {#VersionChoose}
 
-## 区域选择
+## 区域选择 {#regoin-Choose}
 
 我们目前提供2个服务器,分别为十堰和北京。\
 我们对此并不做推荐,因为每个人的网络都不同,建议<mark>选相对而言延迟更低的</mark>即可。
 
-## 版本选择
+## 版本选择 {#server-Model}
 
 <mark>我们统一了服务器版本,现在,基本大部分AmongUs版本都支持一个版本`Next`上运行。</mark>
 
