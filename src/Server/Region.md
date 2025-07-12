@@ -47,38 +47,38 @@ order: 2
 不支持: 服务器明确不支持或经过测试后发现不支持此版本。\
 尚未测试: 还没有对此版本进行兼容性测试。
 
-|   版本号   |  发布日期(UTC)  |                 Next                  |
-| :--------: | :--------: | :-----------------------------------: |
-|   16.1.0   | 2025.6.10  | <Badge type="warning" text="兼容" />  |
-|   16.0.5   | 2025.5.20  |   <Badge type="tip" text="支持" />    |
-|   16.0.2   |  2025.4.3  | <Badge type="info" text="尚未测试" /> |
-|   16.0.0   | 2025.3.25  |   <Badge type="tip" text="支持" />    |
-| 2024.11.26 | 2024.11.19 | <Badge type="info" text="尚未测试" /> |
-| 2024.10.29 | 2024.10.22 |   <Badge type="tip" text="支持" />    |
-|  2024.9.4  |  2024.9.4  |   <Badge type="tip" text="支持" />    |
-| 2024.8.13  | 2024.8.13  |   <Badge type="tip" text="支持" />    |
-| 2024.6.18  | 2024.6.18  |   <Badge type="tip" text="支持" />    |
-|  2024.6.4  |  2024.6.4  |   <Badge type="tip" text="支持" />    |
-|  2024.3.5  |  2024.3.5  |   <Badge type="tip" text="支持" />    |
-| 2023.11.28 | 2023.11.28 |   <Badge type="tip" text="支持" />    |
-| 2023.10.24 | 2023.10.24 |   <Badge type="tip" text="支持" />    |
-| 2023.7.12 | 2023.7.13 | <Badge type="info" text="尚未测试" /> |
-| 2023.7.11 | 2023.7.12 |   <Badge type="tip" text="支持" />    |
-| 2023.6.27 | 2023.6.28 | <Badge type="info" text="尚未测试" /> |
-| 2023.6.13 | 2023.6.13 |   <Badge type="tip" text="支持" />    |
-| 2023.3.28 | 2023.3.28 |   <Badge type="tip" text="支持" />    |
-| 2023.2.28 | 2023.2.28 |   <Badge type="tip" text="支持" />    |
-| 2022.12.14 | 2022.12.16 |   <Badge type="tip" text="支持" />    |
-| 2022.12.8 | 2022.12.9 |   <Badge type="tip" text="支持" />    |
-| 2022.10.19?[^8] | 2022.10.19(20) |   <Badge type="info" text="无效版本" />    |
-| 2022.10.18 | 2022.10.18 |   <Badge type="tip" text="支持" />    |
-| 2022.9.20 | 2022.9.20 |   <Badge type="info" text="尚未测试" />    |
-| 2022.8.24 | 2022.8.24 |   <Badge type="info" text="尚未测试" />    |
-| 2022.8.23 | 2022.8.23 |   <Badge type="tip" text="支持" />    |
-| 2022.7.12 | 2022.7.13 |   <Badge type="tip" text="支持" />    |
-| 2022.6.21 | 2022.6.21 |   <Badge type="tip" text="支持" />    |
-| ????.??.??[^9] | 2022.4.19 |   <Badge type="tip" text="支持" />    |
-| 2022.3.29 | 2022.3.31 |   <Badge type="tip" text="支持" />    |
+|     版本号      | 发布日期(UTC)  |                 Next                  |
+| :-------------: | :------------: | :-----------------------------------: |
+|     16.1.0      |   2025.6.10    | <Badge type="warning" text="兼容" />  |
+|     16.0.5      |   2025.5.20    |   <Badge type="tip" text="支持" />    |
+|     16.0.2      |    2025.4.3    | <Badge type="info" text="尚未测试" /> |
+|     16.0.0      |   2025.3.25    |   <Badge type="tip" text="支持" />    |
+|   2024.11.26    |   2024.11.19   | <Badge type="info" text="尚未测试" /> |
+|   2024.10.29    |   2024.10.22   |   <Badge type="tip" text="支持" />    |
+|    2024.9.4     |    2024.9.4    |   <Badge type="tip" text="支持" />    |
+|    2024.8.13    |   2024.8.13    |   <Badge type="tip" text="支持" />    |
+|    2024.6.18    |   2024.6.18    |   <Badge type="tip" text="支持" />    |
+|    2024.6.4     |    2024.6.4    |   <Badge type="tip" text="支持" />    |
+|    2024.3.5     |    2024.3.5    |   <Badge type="tip" text="支持" />    |
+|   2023.11.28    |   2023.11.28   |   <Badge type="tip" text="支持" />    |
+|   2023.10.24    |   2023.10.24   |   <Badge type="tip" text="支持" />    |
+|    2023.7.12    |   2023.7.13    | <Badge type="info" text="尚未测试" /> |
+|    2023.7.11    |   2023.7.12    |   <Badge type="tip" text="支持" />    |
+|    2023.6.27    |   2023.6.28    | <Badge type="info" text="尚未测试" /> |
+|    2023.6.13    |   2023.6.13    |   <Badge type="tip" text="支持" />    |
+|    2023.3.28    |   2023.3.28    |   <Badge type="tip" text="支持" />    |
+|    2023.2.28    |   2023.2.28    |   <Badge type="tip" text="支持" />    |
+|   2022.12.14    |   2022.12.16   |   <Badge type="tip" text="支持" />    |
+|    2022.12.8    |   2022.12.9    |   <Badge type="tip" text="支持" />    |
+| 2022.10.19?[^8] | 2022.10.19(20) | <Badge type="info" text="无效版本" /> |
+|   2022.10.18    |   2022.10.18   |   <Badge type="tip" text="支持" />    |
+|    2022.9.20    |   2022.9.20    | <Badge type="info" text="尚未测试" /> |
+|    2022.8.24    |   2022.8.24    | <Badge type="info" text="尚未测试" /> |
+|    2022.8.23    |   2022.8.23    |   <Badge type="tip" text="支持" />    |
+|    2022.7.12    |   2022.7.13    |   <Badge type="tip" text="支持" />    |
+|    2022.6.21    |   2022.6.21    |   <Badge type="tip" text="支持" />    |
+|    2022.4.19    | ????.??.??[^9] |   <Badge type="tip" text="支持" />    |
+|    2022.3.29    |   2022.3.31    |   <Badge type="tip" text="支持" />    |
 
 :::tip
 
