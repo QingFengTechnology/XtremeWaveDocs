@@ -18,25 +18,25 @@ order: 2
 ::: details 服务器版本配置信息
 
 |           项目           |                     Next                     |
-| :----------------------: | :--------------------------------------------: |
-|     玩家信息获取[^1]     |        <Badge type="tip" text="完整" />        |
-|    基于好友代码的封禁    |      <Badge type="danger" text="不支持" />       |
-|    基于 IP 地址的封禁    |      <Badge type="warning" text="依赖于服务器" />      |
-|   基于 PUID 的封禁[^2]   |      <Badge type="danger" text="不支持" />       |
-| 基于 authInfo 的封禁[^3] |      <Badge type="danger" text="不支持" />       |
-|    强制踢人、解散房间    |        <Badge type="danger" text="不支持" />        |
-|     数据隐私保护     |        <Badge type="tip" text="必备" />        |
-|     服务器欢迎消息     |        <Badge type="tip" text="支持" />        |
-|     服务器命令     |        <Badge type="tip" text="支持" />        |
-|     聊天信息获取     |        <Badge type="tip" text="支持" />        |
-|    结束时获胜阵营获取     |        <Badge type="tip" text="支持" />        |
-|    快速安装、简单易用    | <Badge type="tip" text="是" /> |
-|       公开大厅搜索       |     <Badge type="tip" text="支持" />      |
-|    广泛游戏版本支持    | <Badge type="tip" text="是" /> |
-|     服务器仍持续维护     |       <Badge type="tip" text="维护中" />       |
-|    插件仍持续维护[^4]    |       <Badge type="tip" text="维护中" />       |
-|    自定义房间代码[^5]    |        <Badge type="tip" text="支持" />        |
-|     Reactor API[^6]      |     <Badge type="tip" text="支持" />      |
+| :----------------------: | :------------------------------------------: |
+|     玩家信息获取[^1]     |       <Badge type="tip" text="完整" />       |
+|    基于好友代码的封禁    |    <Badge type="danger" text="不支持" />     |
+|    基于 IP 地址的封禁    | <Badge type="warning" text="依赖于服务器" /> |
+|   基于 PUID 的封禁[^2]   |    <Badge type="danger" text="不支持" />     |
+| 基于 authInfo 的封禁[^3] |    <Badge type="danger" text="不支持" />     |
+|    强制踢人、解散房间    |       <Badge type="tip" text="支持" />       |
+|       数据隐私保护       |       <Badge type="tip" text="必备" />       |
+|      服务器欢迎消息      |       <Badge type="tip" text="支持" />       |
+|        服务器命令        |       <Badge type="tip" text="支持" />       |
+|       聊天信息获取       |       <Badge type="tip" text="支持" />       |
+|    结束时获胜阵营获取    |       <Badge type="tip" text="支持" />       |
+|    快速安装、简单易用    |        <Badge type="tip" text="是" />        |
+|       公开大厅搜索       |       <Badge type="tip" text="支持" />       |
+|     广泛游戏版本支持     |        <Badge type="tip" text="是" />        |
+|     服务器仍持续维护     |      <Badge type="tip" text="维护中" />      |
+|    插件仍持续维护[^4]    |      <Badge type="tip" text="维护中" />      |
+|    自定义房间代码[^5]    |       <Badge type="tip" text="支持" />       |
+|     Reactor API[^6]      |       <Badge type="tip" text="支持" />       |
 
 :::
 
@@ -47,25 +47,42 @@ order: 2
 不支持: 服务器明确不支持或经过测试后发现不支持此版本。\
 尚未测试: 还没有对此版本进行兼容性测试。
 
-|   版本号   |  发布日期  |              Next                |
-| :--------: | :--------: | :------------------------------: |
-|   16.1.0   | 2025.6.10  |  <Badge type="warning" text="兼容" />   |
-|   16.0.5   | 2025.5.20  |  <Badge type="tip" text="支持" />   |
-|   16.0.2   |  2025.4.3  |  <Badge type="info" text="尚未测试" />   |
-|   16.0.0   | 2025.3.25  |  <Badge type="tip" text="支持" />   |
+|   版本号   |  发布日期(UTC)  |                 Next                  |
+| :--------: | :--------: | :-----------------------------------: |
+|   16.1.0   | 2025.6.10  | <Badge type="warning" text="兼容" />  |
+|   16.0.5   | 2025.5.20  |   <Badge type="tip" text="支持" />    |
+|   16.0.2   |  2025.4.3  | <Badge type="info" text="尚未测试" /> |
+|   16.0.0   | 2025.3.25  |   <Badge type="tip" text="支持" />    |
 | 2024.11.26 | 2024.11.19 | <Badge type="info" text="尚未测试" /> |
-| 2024.10.29 | 2024.10.22 | <Badge type="tip" text="支持" /> |
-|  2024.9.4  |  2024.9.4  |<Badge type="tip" text="支持" /> |
-| 2024.8.13  | 2024.8.13  | <Badge type="tip" text="支持" /> |
-| 2024.6.18  | 2024.6.18  | <Badge type="tip" text="支持" /> |
-|  2024.6.4  |  2024.6.4  | <Badge type="tip" text="支持" /> |
-|  2024.3.5  |  2024.3.5  | <Badge type="tip" text="支持" /> |
-| 2023.11.28 | 2023.11.28 | <Badge type="tip" text="支持" /> |
-| 2023.10.24 | 2023.10.24 | <Badge type="tip" text="支持" /> |
+| 2024.10.29 | 2024.10.22 |   <Badge type="tip" text="支持" />    |
+|  2024.9.4  |  2024.9.4  |   <Badge type="tip" text="支持" />    |
+| 2024.8.13  | 2024.8.13  |   <Badge type="tip" text="支持" />    |
+| 2024.6.18  | 2024.6.18  |   <Badge type="tip" text="支持" />    |
+|  2024.6.4  |  2024.6.4  |   <Badge type="tip" text="支持" />    |
+|  2024.3.5  |  2024.3.5  |   <Badge type="tip" text="支持" />    |
+| 2023.11.28 | 2023.11.28 |   <Badge type="tip" text="支持" />    |
+| 2023.10.24 | 2023.10.24 |   <Badge type="tip" text="支持" />    |
+| 2023.7.12 | 2023.7.13 | <Badge type="info" text="尚未测试" /> |
+| 2023.7.11 | 2023.7.12 |   <Badge type="tip" text="支持" />    |
+| 2023.6.27 | 2023.6.28 | <Badge type="info" text="尚未测试" /> |
+| 2023.6.13 | 2023.6.13 |   <Badge type="tip" text="支持" />    |
+| 2023.3.28 | 2023.3.28 |   <Badge type="tip" text="支持" />    |
+| 2023.2.28 | 2023.2.28 |   <Badge type="tip" text="支持" />    |
+| 2022.12.14 | 2022.12.16 |   <Badge type="tip" text="支持" />    |
+| 2022.12.8 | 2022.12.9 |   <Badge type="tip" text="支持" />    |
+| 2022.10.19?[^8] | 2022.10.19(20) |   <Badge type="info" text="无效版本" />    |
+| 2022.10.18 | 2022.10.18 |   <Badge type="tip" text="支持" />    |
+| 2022.9.20 | 2022.9.20 |   <Badge type="info" text="尚未测试" />    |
+| 2022.8.24 | 2022.8.24 |   <Badge type="info" text="尚未测试" />    |
+| 2022.8.23 | 2022.8.23 |   <Badge type="tip" text="支持" />    |
+| 2022.7.12 | 2022.7.13 |   <Badge type="tip" text="支持" />    |
+| 2022.6.21 | 2022.6.21 |   <Badge type="tip" text="支持" />    |
+| ????.??.??[^9] | 2022.4.19 |   <Badge type="tip" text="支持" />    |
+| 2022.3.29 | 2022.3.31 |   <Badge type="tip" text="支持" />    |
 
 :::tip
 
-未在此版本列出的版本名称则表示不支持。
+未在此版本列出的版本名称则默认表示不支持。
 
 :::
 
@@ -76,3 +93,5 @@ order: 2
 [^5]: 这是从服务器端控制的房间代码,我们还没法实现从客户端自定义房间代码。
 [^6]: [Reactor](https://github.com/NuclearPowered/Reactor)是AmongUs的模组API,为模组提供了许多功能。<br>但使用此插件的主流模组似乎并不多。
 [^7]: 不保证可能会出现的潜在错误。
+[^8]: 此版本被[AmongUs Wiki](https://among-us.fandom.com/wiki/Among_Us/Version_history)标记为非Steam版本,但我们却在[SteamDB](https://steamdb.info/depot/945361/manifests/)上找到了此版本。
+[^9]: 此版本被开发者标记为支持,[AmongUs Wiki](https://among-us.fandom.com/wiki/Among_Us/Version_history)也找到了此版本,但[SteamDB](https://steamdb.info/depot/945361/manifests/)上无法找到此版本。

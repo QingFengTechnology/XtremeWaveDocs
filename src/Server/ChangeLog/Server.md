@@ -4,6 +4,11 @@ order: 1
 ---
 # 服务器维护日志
 
+## 2025.7.13
+
+- 优化欢迎消息与服务器命令消息。
+- 小规模测试重构后北京服务器。
+
 ## 2025.7.11 <Badge type="warning" text="Breaking Changes" /> <Badge type="warning" text="仅十堰更新" />
 
 - 使用了全新技术的服务器。
