@@ -4,6 +4,20 @@ order: 1
 ---
 # 服务器维护日志
 
+## 2025.7.11 <Badge type="warning" text="Breaking Changes" /> <Badge type="warning" text="仅十堰更新" />
+
+- 使用了全新技术的服务器。
+- 将Normal与Legacy服务器合并,并将名称调整为Next。
+  - 因服务器合并,不再需要针对自定义房间代码优化调整,改为默认方式获取。
+- 新增欢迎消息与服务器命令。
+- 优化了防火墙配置规则与攻击防御系统。
+- 优化服务器反作弊,尝试解决反作弊误报问题。
+- 优化端口策略,降低了延迟,提升了抗攻击能力。
+
+## 2025.7.10 <Badge type="warning" text="Breaking Changes" /> <Badge type="warning" text="仅十堰更新" />
+
+- 停止运营并移除了Secure服务器。
+
 ## 2025.6.30-1 <Badge type="warning" text="Breaking Changes" />
 
 - 新增了一个服务器,并调整了域名访问规则。
